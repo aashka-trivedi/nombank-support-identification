@@ -1,0 +1,3522 @@
+Then	RB	B-ADVP	0	0
+in	IN	B-PP	1	0
+a	DT	B-NP	2	0
+lightning	NN	I-NP	3	0
+plunge	NN	I-NP	4	0
+COMMA	COMMA	O	5	0
+the	DT	O	6	0
+Dow	NNP	B-NP	7	0
+Jones	NNP	I-NP	8	0
+industrials	NNS	B-NP	9	0	ARG1
+in	IN	B-PP	10	0
+barely	RB	B-ADVP	11	0
+an	DT	B-NP	12	0
+hour	NN	I-NP	13	0
+surrendered	VBD	O	14	0
+about	RB	B-ADVP	15	0
+a	DT	B-NP	16	0
+third	NN	I-NP	17	0
+of	IN	B-PP	18	0
+their	PRP$	B-NP	19	0
+gains	NNS	I-NP	20	0
+this	DT	B-NP	21	0
+year	NN	I-NP	22	0
+COMMA	COMMA	O	23	0
+chalking	VBG	O	24	0	SUPPORT
+up	RP	B-ADVP	25	0
+a	DT	O	26	0
+190.58-point	NN	B-NP	27	0
+COMMA	COMMA	O	28	0
+or	CC	O	29	0
+6.9	CD	B-NP	30	0
+%	NN	I-NP	31	0	PRED	PARTITIVE-QUANT
+COMMA	COMMA	B-NP	32	0
+loss	NN	I-NP	33	0	SUPPORT
+on	IN	B-PP	34	0
+the	DT	B-NP	35	0
+day	NN	I-NP	36	0
+in	IN	B-PP	37	0
+gargantuan	JJ	B-NP	38	0
+trading	NN	I-NP	39	0
+volume	NN	I-NP	40	0
+.	.	O	41	0
+
+In	IN	B-PP	0	1
+percentage	NN	B-NP	1	1
+terms	NNS	I-NP	2	1
+COMMA	COMMA	O	3	1
+however	RB	O	4	1
+COMMA	COMMA	O	5	1
+the	DT	B-NP	6	1
+Dow	NNP	I-NP	7	1
+'s	POS	B-NP	8	1
+dive	NN	I-NP	9	1
+was	VBD	O	10	1
+the	DT	B-NP	11	1
+12th-worst	NN	I-NP	12	1
+ever	RB	B-ADVP	13	1
+and	CC	O	14	1
+the	DT	B-NP	15	1
+sharpest	JJS	I-NP	16	1
+since	IN	B-SBAR	17	1
+the	DT	B-NP	18	1
+market	NN	I-NP	19	1	ARG1
+fell	VBD	O	20	1	SUPPORT
+156.83	CD	B-NP	21	1
+COMMA	COMMA	O	22	1
+or	CC	O	23	1
+8	CD	B-NP	24	1
+%	NN	I-NP	25	1	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	26	1
+a	DT	B-NP	27	1
+week	NN	I-NP	28	1
+after	IN	B-PP	29	1
+Black	NNP	B-NP	30	1
+Monday	NNP	I-NP	31	1
+.	.	O	32	1
+
+The	DT	B-NP	0	2
+Dow	NNP	I-NP	1	2	ARG1
+fell	VBD	O	2	2	SUPPORT
+22.6	CD	B-NP	3	2
+%	NN	I-NP	4	2	PRED	PARTITIVE-QUANT
+on	IN	B-PP	5	2
+Black	NNP	B-NP	6	2
+Monday	NNP	I-NP	7	2
+.	.	O	8	2
+
+But	CC	B-CONJP	0	9
+she	PRP	B-NP	1	9
+expects	VBZ	O	2	9
+prices	NNS	B-NP	3	9
+to	TO	O	4	9
+rebound	VB	O	5	9
+soon	RB	B-ADVP	6	9
+and	CC	B-CONJP	7	9
+is	VBZ	O	8	9
+telling	VBG	O	9	9
+investors	NNS	B-NP	10	9
+she	PRP	B-NP	11	9
+expects	VBZ	O	12	9
+the	DT	B-NP	13	9
+stock	NN	I-NP	14	9
+market	NN	I-NP	15	9	ARG1
+wo	MD	O	16	9
+n't	RB	B-ADVP	17	9
+decline	VB	O	18	9	SUPPORT
+more	JJR	B-NP	19	9
+than	IN	I-NP	20	9
+10	CD	B-NP	21	9
+%	NN	I-NP	22	9	PRED	PARTITIVE-QUANT
+to	TO	O	23	9
+15	CD	B-NP	24	9
+%	NN	I-NP	25	9
+from	IN	B-PP	26	9
+recent	JJ	B-NP	27	9
+highs	NNS	I-NP	28	9
+.	.	O	29	9
+
+But	CC	B-CONJP	0	10
+she	PRP	B-NP	1	10
+expects	VBZ	O	2	10
+prices	NNS	B-NP	3	10
+to	TO	O	4	10
+rebound	VB	O	5	10
+soon	RB	B-ADVP	6	10
+and	CC	B-CONJP	7	10
+is	VBZ	O	8	10
+telling	VBG	O	9	10
+investors	NNS	B-NP	10	10
+she	PRP	B-NP	11	10
+expects	VBZ	O	12	10
+the	DT	B-NP	13	10
+stock	NN	I-NP	14	10
+market	NN	I-NP	15	10	ARG1
+wo	MD	O	16	10
+n't	RB	B-ADVP	17	10
+decline	VB	O	18	10	SUPPORT
+more	JJR	B-NP	19	10
+than	IN	I-NP	20	10
+10	CD	B-NP	21	10
+%	NN	I-NP	22	10
+to	TO	O	23	10
+15	CD	B-NP	24	10
+%	NN	I-NP	25	10	PRED	PARTITIVE-QUANT
+from	IN	B-PP	26	10
+recent	JJ	B-NP	27	10
+highs	NNS	I-NP	28	10
+.	.	O	29	10
+
+But	CC	B-CONJP	0	11
+Mr.	NNP	B-NP	1	11
+Baker	NNP	I-NP	2	11
+called	VBD	O	3	11
+the	DT	B-NP	4	11
+letter	NN	I-NP	5	11
+--	:	O	6	11
+and	CC	O	7	11
+the	DT	B-NP	8	11
+company	NN	I-NP	9	11
+'s	POS	B-NP	10	11
+offer	NN	I-NP	11	11
+of	IN	B-PP	12	11
+a	DT	O	13	11
+10	CD	B-NP	14	11
+%	NN	I-NP	15	11	PRED	PARTITIVE-QUANT
+wage	NN	B-NP	16	11	ARG1
+increase	NN	I-NP	17	11	SUPPORT
+over	IN	B-PP	18	11
+the	DT	B-NP	19	11
+life	NN	I-NP	20	11
+of	IN	B-PP	21	11
+the	DT	B-NP	22	11
+pact	NN	I-NP	23	11
+COMMA	COMMA	O	24	11
+plus	CC	O	25	11
+bonuses	NNS	B-NP	26	11
+--	:	O	27	11
+``	``	O	28	11
+very	RB	B-ADJP	29	11
+weak	JJ	I-ADJP	30	11
+.	.	O	31	11
+''	''	O	32	11
+
+That	DT	B-NP	0	24
+was	VBD	O	1	24
+essentially	RB	B-ADVP	2	24
+made	VBN	O	3	24
+up	RP	B-ADVP	4	24
+of	IN	B-PP	5	24
+a	DT	O	6	24
+1	CD	B-NP	7	24
+%	NN	I-NP	8	24	PRED	PARTITIVE-QUANT
+increase	NN	B-NP	9	24	SUPPORT
+in	IN	B-PP	10	24
+the	DT	B-NP	11	24
+overall	JJ	I-NP	12	24
+quota	NN	I-NP	13	24
+program	NN	I-NP	14	24	ARG1
+and	CC	O	15	24
+1	CD	B-NP	16	24
+%	NN	I-NP	17	24
+from	IN	B-PP	18	24
+cutting	VBG	O	19	24
+Japan	NNP	B-NP	20	24
+'s	POS	B-NP	21	24
+allowance	NN	I-NP	22	24
+.	.	O	23	24
+
+Britain	NNP	B-NP	0	28
+'s	POS	B-NP	1	28
+retail	JJ	I-NP	2	28
+price	NN	I-NP	3	28
+index	NN	I-NP	4	28	ARG1
+rose	VBD	O	5	28	SUPPORT
+0.7	CD	B-NP	6	28
+%	NN	I-NP	7	28	PRED	PARTITIVE-QUANT
+in	IN	B-PP	8	28
+September	NNP	B-NP	9	28
+from	IN	B-PP	10	28
+August	NNP	B-NP	11	28
+and	CC	O	12	28
+was	VBD	O	13	28
+up	IN	B-PP	14	28
+7.6	CD	B-NP	15	28
+%	NN	I-NP	16	28
+for	IN	B-PP	17	28
+the	DT	B-NP	18	28
+year	NN	I-NP	19	28
+COMMA	COMMA	O	20	28
+the	DT	B-NP	21	28
+Central	NNP	B-NP	22	28
+Statistical	NNP	I-NP	23	28
+Office	NNP	I-NP	24	28
+said	VBD	O	25	28
+.	.	O	26	28
+
+The	DT	B-NP	0	31
+Cincinnati	NNP	I-NP	1	31
+consumer-products	NNS	I-NP	2	31
+giant	NN	I-NP	3	31
+got	VBD	O	4	31
+clobbered	VBN	O	5	31
+two	CD	B-NP	6	31
+years	NNS	I-NP	7	31
+ago	RB	B-ADVP	8	31
+in	IN	B-PP	9	31
+Japan	NNP	B-NP	10	31
+when	IN	B-ADVP	11	31
+Kao	NNP	B-NP	12	31
+introduced	VBD	O	13	31
+a	DT	B-NP	14	31
+powerful	JJ	I-NP	15	31
+detergent	NN	I-NP	16	31
+COMMA	COMMA	O	17	31
+called	VBN	O	18	31
+Attack	NNP	B-NP	19	31
+COMMA	COMMA	O	20	31
+which	WDT	B-NP	21	31
+quickly	RB	B-ADVP	22	31
+won	VBD	O	23	31
+a	DT	O	24	31
+30	CD	B-NP	25	31
+%	NN	I-NP	26	31	PRED	PARTITIVE-QUANT
+stake	NN	B-NP	27	31	SUPPORT
+in	IN	B-PP	28	31
+the	DT	B-NP	29	31
+Japanese	JJ	I-NP	30	31
+markets	NNS	I-NP	31	31	ARG1
+.	.	O	32	31
+
+The	DT	B-NP	0	32
+U.S.	NNP	I-NP	1	32
+share	NN	I-NP	2	32	ARG1
+of	IN	B-PP	3	32
+the	DT	B-NP	4	32
+Japanese	JJ	I-NP	5	32
+market	NN	I-NP	6	32
+has	VBZ	O	7	32
+been	VBN	O	8	32
+stuck	VBN	O	9	32	SUPPORT
+around	IN	B-PP	10	32	SUPPORT
+10	CD	B-NP	11	32
+%	NN	I-NP	12	32	PRED	PARTITIVE-QUANT
+for	IN	B-PP	13	32
+years	NNS	B-NP	14	32
+.	.	O	15	32
+
+Going	VBG	O	0	33
+into	IN	B-PP	1	33
+the	DT	B-NP	2	33
+fourth	JJ	I-NP	3	33
+quarter	NN	I-NP	4	33
+COMMA	COMMA	O	5	33
+natural	JJ	B-NP	6	33
+gas	NN	I-NP	7	33
+prices	NNS	I-NP	8	33	ARG1
+are	VBP	O	9	33
+anywhere	NN	B-NP	10	33
+from	IN	I-NP	11	33
+8	CD	B-NP	12	33
+%	NN	I-NP	13	33	PRED	PARTITIVE-QUANT
+to	TO	O	14	33
+17	CD	B-NP	15	33
+%	NN	I-NP	16	33
+lower	JJR	B-ADJP	17	33	SUPPORT
+than	IN	B-PP	18	33
+a	DT	B-NP	19	33
+year	NN	I-NP	20	33
+earlier	RBR	B-ADVP	21	33
+.	.	O	22	33
+
+Going	VBG	O	0	34
+into	IN	B-PP	1	34
+the	DT	B-NP	2	34
+fourth	JJ	I-NP	3	34
+quarter	NN	I-NP	4	34
+COMMA	COMMA	O	5	34
+natural	JJ	B-NP	6	34
+gas	NN	I-NP	7	34
+prices	NNS	I-NP	8	34	ARG1
+are	VBP	O	9	34
+anywhere	NN	B-NP	10	34
+from	IN	I-NP	11	34
+8	CD	B-NP	12	34
+%	NN	I-NP	13	34
+to	TO	O	14	34
+17	CD	B-NP	15	34
+%	NN	I-NP	16	34	PRED	PARTITIVE-QUANT
+lower	JJR	B-ADJP	17	34	SUPPORT
+than	IN	B-PP	18	34
+a	DT	B-NP	19	34
+year	NN	I-NP	20	34
+earlier	RBR	B-ADVP	21	34
+.	.	O	22	34
+
+It	PRP	B-NP	0	36	ARG1
+has	VBZ	O	1	36
+plunged	VBN	O	2	36	SUPPORT
+13	CD	B-NP	3	36
+%	NN	I-NP	4	36	PRED	PARTITIVE-QUANT
+since	IN	B-PP	5	36
+July	NNP	B-NP	6	36
+to	IN	B-PP	7	36
+around	IN	B-NP	8	36
+26	CD	I-NP	9	36
+cents	NNS	I-NP	10	36
+a	DT	B-NP	11	36
+pound	NN	I-NP	12	36
+.	.	O	13	36
+
+Financial	NNP	B-NP	0	37
+Corp.	NNP	I-NP	1	37
+purchased	VBD	O	2	37
+the	DT	B-NP	3	37
+bonds	NNS	I-NP	4	37
+COMMA	COMMA	O	5	37
+the	DT	B-NP	6	37
+suit	NN	I-NP	7	37
+alleged	VBD	O	8	37
+COMMA	COMMA	O	9	37
+after	IN	O	10	37
+Mr.	NNP	B-NP	11	37
+Boesky	NNP	I-NP	12	37
+and	CC	O	13	37
+Drexel	NNP	B-NP	14	37
+negotiated	VBD	O	15	37
+an	DT	B-NP	16	37
+agreement	NN	B-NP	17	37
+for	IN	B-SBAR	18	37
+Vagabond	NNP	B-NP	19	37
+Hotels	NNP	I-NP	20	37
+to	TO	O	21	37
+purchase	VB	O	22	37
+a	DT	O	23	37
+51	CD	B-NP	24	37
+%	NN	I-NP	25	37	PRED	PARTITIVE-QUANT
+stake	NN	B-NP	26	37	SUPPORT
+in	IN	B-PP	27	37
+the	DT	B-NP	28	37
+thrift	NN	I-NP	29	37	ARG1
+for	IN	B-PP	30	37
+about	RB	B-ADVP	31	37
+$	$	O	32	37
+34	CD	B-NP	33	37
+million	CD	I-NP	34	37
+.	.	O	35	37
+
+Shortly	RB	B-ADVP	0	38
+before	IN	B-PP	1	38
+the	DT	B-NP	2	38
+visit	NN	I-NP	3	38
+COMMA	COMMA	O	4	38
+Mr.	NNP	B-NP	5	38
+Boesky	NNP	I-NP	6	38
+and	CC	O	7	38
+Drexel	NNP	B-NP	8	38
+representives	NNS	I-NP	9	38
+had	VBD	O	10	38
+met	VBN	O	11	38
+with	IN	B-PP	12	38
+Financial	NNP	B-NP	13	38
+Corp.	NNP	I-NP	14	38
+officials	NNS	B-NP	15	38
+and	CC	O	16	38
+had	VBD	O	17	38
+signed	VBN	O	18	38
+a	DT	B-NP	19	38
+letter	NN	I-NP	20	38
+of	IN	B-PP	21	38
+intent	NN	B-NP	22	38
+to	TO	O	23	38
+acquire	VB	O	24	38
+the	DT	O	25	38
+51	CD	B-NP	26	38
+%	NN	I-NP	27	38	PRED	PARTITIVE-QUANT
+stake	NN	B-NP	28	38	SUPPORT
+in	IN	B-PP	29	38
+the	DT	B-NP	30	38
+company	NN	I-NP	31	38	ARG1
+.	.	O	32	38
+
+HOFI	NNP	B-NP	0	40
+COMMA	COMMA	O	1	40
+the	DT	B-NP	2	40
+North	RB	I-NP	3	40
+American	JJ	I-NP	4	40
+holding	NN	I-NP	5	40
+company	NN	I-NP	6	40
+of	IN	B-PP	7	40
+Swiss	JJ	B-NP	8	40
+concern	NN	I-NP	9	40
+Holderbank	NNP	B-NP	10	40
+Financiere	NNP	I-NP	11	40
+Glaris	NNP	I-NP	12	40
+Ltd.	NNP	I-NP	13	40
+COMMA	COMMA	O	14	40
+previously	RB	O	15	40
+proposed	VBD	O	16	40
+combining	VBG	O	17	40
+its	PRP$	O	18	40
+100	CD	B-NP	19	40
+%	NN	I-NP	20	40	PRED	PARTITIVE-QUANT
+stake	NN	B-NP	21	40	SUPPORT
+in	IN	B-PP	22	40
+St.	NNP	B-NP	23	40
+Lawrence	NNP	I-NP	24	40
+Cement	NNP	I-NP	25	40	ARG1
+Inc.	NNP	I-NP	26	40
+and	CC	O	27	40
+its	PRP$	O	28	40
+60	CD	B-NP	29	40
+%	NN	I-NP	30	40
+stake	NN	B-NP	31	40
+in	IN	B-PP	32	40
+Dundee	NNP	B-NP	33	40
+Cement	NNP	I-NP	34	40
+Co.	NNP	I-NP	35	40
+with	IN	B-PP	36	40
+its	PRP$	O	37	40
+67	CD	B-NP	38	40
+%	NN	I-NP	39	40
+stake	NN	B-NP	40	40
+in	IN	B-PP	41	40
+Ideal	NN	B-NP	42	40
+.	.	O	43	40
+
+HOFI	NNP	B-NP	0	41
+COMMA	COMMA	O	1	41
+the	DT	B-NP	2	41
+North	RB	I-NP	3	41
+American	JJ	I-NP	4	41
+holding	NN	I-NP	5	41
+company	NN	I-NP	6	41
+of	IN	B-PP	7	41
+Swiss	JJ	B-NP	8	41
+concern	NN	I-NP	9	41
+Holderbank	NNP	B-NP	10	41
+Financiere	NNP	I-NP	11	41
+Glaris	NNP	I-NP	12	41
+Ltd.	NNP	I-NP	13	41
+COMMA	COMMA	O	14	41
+previously	RB	O	15	41
+proposed	VBD	O	16	41
+combining	VBG	O	17	41
+its	PRP$	O	18	41
+100	CD	B-NP	19	41
+%	NN	I-NP	20	41
+stake	NN	B-NP	21	41
+in	IN	B-PP	22	41
+St.	NNP	B-NP	23	41
+Lawrence	NNP	I-NP	24	41
+Cement	NNP	I-NP	25	41
+Inc.	NNP	I-NP	26	41
+and	CC	O	27	41
+its	PRP$	O	28	41
+60	CD	B-NP	29	41
+%	NN	I-NP	30	41	PRED	PARTITIVE-QUANT
+stake	NN	B-NP	31	41	SUPPORT
+in	IN	B-PP	32	41
+Dundee	NNP	B-NP	33	41
+Cement	NNP	I-NP	34	41	ARG1
+Co.	NNP	I-NP	35	41
+with	IN	B-PP	36	41
+its	PRP$	O	37	41
+67	CD	B-NP	38	41
+%	NN	I-NP	39	41
+stake	NN	B-NP	40	41
+in	IN	B-PP	41	41
+Ideal	NN	B-NP	42	41
+.	.	O	43	41
+
+HOFI	NNP	B-NP	0	42
+COMMA	COMMA	O	1	42
+the	DT	B-NP	2	42
+North	RB	I-NP	3	42
+American	JJ	I-NP	4	42
+holding	NN	I-NP	5	42
+company	NN	I-NP	6	42
+of	IN	B-PP	7	42
+Swiss	JJ	B-NP	8	42
+concern	NN	I-NP	9	42
+Holderbank	NNP	B-NP	10	42
+Financiere	NNP	I-NP	11	42
+Glaris	NNP	I-NP	12	42
+Ltd.	NNP	I-NP	13	42
+COMMA	COMMA	O	14	42
+previously	RB	O	15	42
+proposed	VBD	O	16	42
+combining	VBG	O	17	42
+its	PRP$	O	18	42
+100	CD	B-NP	19	42
+%	NN	I-NP	20	42
+stake	NN	B-NP	21	42
+in	IN	B-PP	22	42
+St.	NNP	B-NP	23	42
+Lawrence	NNP	I-NP	24	42
+Cement	NNP	I-NP	25	42
+Inc.	NNP	I-NP	26	42
+and	CC	O	27	42
+its	PRP$	O	28	42
+60	CD	B-NP	29	42
+%	NN	I-NP	30	42
+stake	NN	B-NP	31	42
+in	IN	B-PP	32	42
+Dundee	NNP	B-NP	33	42
+Cement	NNP	I-NP	34	42
+Co.	NNP	I-NP	35	42
+with	IN	B-PP	36	42
+its	PRP$	O	37	42
+67	CD	B-NP	38	42
+%	NN	I-NP	39	42	PRED	PARTITIVE-QUANT
+stake	NN	B-NP	40	42	SUPPORT
+in	IN	B-PP	41	42
+Ideal	NN	B-NP	42	42	ARG1
+.	.	O	43	42
+
+Bozell	NNP	B-NP	0	47
+Cheil	NNP	I-NP	1	47	ARG1
+Corp.	NNP	I-NP	2	47
+COMMA	COMMA	O	3	47
+as	IN	B-SBAR	4	47
+the	DT	B-NP	5	47
+new	JJ	I-NP	6	47
+agency	NN	I-NP	7	47
+will	MD	O	8	47
+be	VB	O	9	47
+called	VBN	O	10	47
+COMMA	COMMA	O	11	47
+will	MD	O	12	47
+be	VB	O	13	47
+based	VBN	O	14	47
+in	IN	B-PP	15	47
+Seoul	NNP	B-NP	16	47
+and	CC	O	17	47
+is	VBZ	O	18	47
+70	CD	B-NP	19	47
+%	NN	I-NP	20	47	PRED	PARTITIVE-QUANT
+owned	VBN	O	21	47	SUPPORT
+by	IN	B-PP	22	47
+Samsung	NNP	B-NP	23	47
+and	CC	O	24	47
+30	CD	B-NP	25	47
+%	NN	I-NP	26	47
+owned	VBN	O	27	47
+by	IN	B-PP	28	47
+Bozell	NNP	B-NP	29	47
+.	.	O	30	47
+
+Bozell	NNP	B-NP	0	48
+Cheil	NNP	I-NP	1	48	ARG1
+Corp.	NNP	I-NP	2	48
+COMMA	COMMA	O	3	48
+as	IN	B-SBAR	4	48
+the	DT	B-NP	5	48
+new	JJ	I-NP	6	48
+agency	NN	I-NP	7	48
+will	MD	O	8	48
+be	VB	O	9	48
+called	VBN	O	10	48
+COMMA	COMMA	O	11	48
+will	MD	O	12	48
+be	VB	O	13	48
+based	VBN	O	14	48
+in	IN	B-PP	15	48
+Seoul	NNP	B-NP	16	48
+and	CC	O	17	48
+is	VBZ	O	18	48
+70	CD	B-NP	19	48
+%	NN	I-NP	20	48
+owned	VBN	O	21	48
+by	IN	B-PP	22	48
+Samsung	NNP	B-NP	23	48
+and	CC	O	24	48
+30	CD	B-NP	25	48
+%	NN	I-NP	26	48	PRED	PARTITIVE-QUANT
+owned	VBN	O	27	48	SUPPORT
+by	IN	B-PP	28	48
+Bozell	NNP	B-NP	29	48
+.	.	O	30	48
+
+Messrs.	NNP	B-NP	0	49
+Malson	NNP	I-NP	1	49
+and	CC	B-NP	2	49
+Seelenfreund	NNP	I-NP	3	49
+are	VBP	O	4	49
+directors	NNS	B-NP	5	49
+of	IN	B-PP	6	49
+McKesson	NNP	B-NP	7	49
+COMMA	COMMA	O	8	49
+which	WDT	B-NP	9	49
+has	VBZ	O	10	49
+an	DT	O	11	49
+86	CD	B-NP	12	49
+%	NN	I-NP	13	49	PRED	PARTITIVE-QUANT
+stake	NN	B-NP	14	49	SUPPORT
+in	IN	B-PP	15	49
+PCS	NNP	B-NP	16	49	ARG1
+.	.	O	17	49
+
+While	IN	O	0	53
+USA	NNP	B-NP	1	53
+Today	NNP	I-NP	2	53
+'s	POS	B-NP	3	53
+total	JJ	I-NP	4	53
+paid	VBN	O	5	53
+ad	NN	B-NP	6	53
+pages	NNS	I-NP	7	53
+for	IN	B-PP	8	53
+the	DT	B-NP	9	53
+year	NN	I-NP	10	53
+to	IN	B-PP	11	53
+date	NN	B-NP	12	53
+totaled	VBD	O	13	53
+2COMMA735	CD	B-NP	14	53
+COMMA	COMMA	O	15	53
+a	DT	B-NP	16	53
+decrease	NN	I-NP	17	53
+of	IN	B-PP	18	53
+4	CD	B-NP	19	53
+%	NN	I-NP	20	53
+from	IN	B-PP	21	53
+last	JJ	B-NP	22	53
+year	NN	I-NP	23	53
+COMMA	COMMA	O	24	53
+the	DT	B-NP	25	53
+paper	NN	I-NP	26	53
+'s	POS	B-NP	27	53
+ad	NN	I-NP	28	53
+revenue	NN	I-NP	29	53	ARG1
+increased	VBD	O	30	53	SUPPORT
+8	CD	B-NP	31	53
+%	NN	I-NP	32	53	PRED	PARTITIVE-QUANT
+in	IN	B-PP	33	53
+the	DT	B-NP	34	53
+quarter	NN	I-NP	35	53
+and	CC	O	36	53
+13	CD	B-NP	37	53
+%	NN	I-NP	38	53
+in	IN	B-PP	39	53
+the	DT	B-NP	40	53
+nine	CD	I-NP	41	53
+months	NNS	I-NP	42	53
+.	.	O	43	53
+
+While	IN	O	0	54
+USA	NNP	B-NP	1	54
+Today	NNP	I-NP	2	54
+'s	POS	B-NP	3	54
+total	JJ	I-NP	4	54
+paid	VBN	O	5	54
+ad	NN	B-NP	6	54
+pages	NNS	I-NP	7	54
+for	IN	B-PP	8	54
+the	DT	B-NP	9	54
+year	NN	I-NP	10	54
+to	IN	B-PP	11	54
+date	NN	B-NP	12	54
+totaled	VBD	O	13	54
+2COMMA735	CD	B-NP	14	54
+COMMA	COMMA	O	15	54
+a	DT	B-NP	16	54
+decrease	NN	I-NP	17	54
+of	IN	B-PP	18	54
+4	CD	B-NP	19	54
+%	NN	I-NP	20	54
+from	IN	B-PP	21	54
+last	JJ	B-NP	22	54
+year	NN	I-NP	23	54
+COMMA	COMMA	O	24	54
+the	DT	B-NP	25	54
+paper	NN	I-NP	26	54
+'s	POS	B-NP	27	54
+ad	NN	I-NP	28	54
+revenue	NN	I-NP	29	54	ARG1
+increased	VBD	O	30	54	SUPPORT
+8	CD	B-NP	31	54
+%	NN	I-NP	32	54
+in	IN	B-PP	33	54
+the	DT	B-NP	34	54
+quarter	NN	I-NP	35	54
+and	CC	O	36	54
+13	CD	B-NP	37	54
+%	NN	I-NP	38	54	PRED	PARTITIVE-QUANT
+in	IN	B-PP	39	54
+the	DT	B-NP	40	54
+nine	CD	I-NP	41	54
+months	NNS	I-NP	42	54
+.	.	O	43	54
+
+In	IN	B-PP	0	55
+the	DT	B-NP	1	55
+nine	CD	I-NP	2	55
+months	NNS	I-NP	3	55
+COMMA	COMMA	O	4	55
+Gannett	NNP	B-NP	5	55
+'s	POS	B-NP	6	55
+net	NN	I-NP	7	55	ARG1
+rose	VBD	O	8	55	SUPPORT
+9.5	CD	B-NP	9	55
+%	NN	I-NP	10	55	PRED	PARTITIVE-QUANT
+to	IN	B-PP	11	55
+$	$	O	12	55
+270	CD	B-NP	13	55
+million	CD	I-NP	14	55
+COMMA	COMMA	O	15	55
+or	CC	O	16	55
+$	$	O	17	55
+1.68	CD	B-NP	18	55
+a	DT	B-NP	19	55
+share	NN	I-NP	20	55
+COMMA	COMMA	O	21	55
+from	IN	B-PP	22	55
+$	$	O	23	55
+247	CD	B-NP	24	55
+million	CD	I-NP	25	55
+COMMA	COMMA	O	26	55
+or	CC	O	27	55
+$	$	O	28	55
+1.52	CD	B-NP	29	55
+a	DT	B-NP	30	55
+share	NN	I-NP	31	55
+.	.	O	32	55
+
+Revenue	NN	B-NP	0	56	ARG1
+gained	VBD	O	1	56	SUPPORT
+6	CD	B-NP	2	56
+%	NN	I-NP	3	56	PRED	PARTITIVE-QUANT
+to	IN	B-PP	4	56
+$	$	O	5	56
+2.55	CD	B-NP	6	56
+billion	CD	I-NP	7	56
+from	IN	B-PP	8	56
+$	$	O	9	56
+2.4	CD	B-NP	10	56
+billion	CD	I-NP	11	56
+.	.	O	12	56
+
+At	IN	B-PP	0	57
+Dow	NNP	B-NP	1	57
+Jones	NNP	I-NP	2	57
+&	NNP	I-NP	3	57
+Co.	NNP	I-NP	4	57
+COMMA	COMMA	O	5	57
+third-quarter	NN	B-NP	6	57
+net	NN	I-NP	7	57
+income	NN	I-NP	8	57	ARG1
+fell	VBD	O	9	57	SUPPORT
+9.9	CD	B-NP	10	57
+%	NN	I-NP	11	57	PRED	PARTITIVE-QUANT
+from	IN	B-PP	12	57
+the	DT	B-NP	13	57
+year-earlier	JJ	I-NP	14	57
+period	NN	I-NP	15	57
+.	.	O	16	57
+
+Ad	NN	B-NP	0	58
+linage	NN	I-NP	1	58	ARG1
+at	IN	B-PP	2	58
+the	DT	B-NP	3	58
+Journal	NNP	I-NP	4	58
+fell	VBD	O	5	58	SUPPORT
+6.1	CD	B-NP	6	58
+%	NN	I-NP	7	58	PRED	PARTITIVE-QUANT
+in	IN	B-PP	8	58
+the	DT	B-NP	9	58
+third	JJ	I-NP	10	58
+quarter	NN	I-NP	11	58
+.	.	O	12	58
+
+After	IN	O	0	59
+a	DT	B-NP	1	59
+supply	NN	I-NP	2	59
+crunch	NN	I-NP	3	59
+caused	VBD	O	4	59
+prices	NNS	B-NP	5	59	ARG1
+to	TO	O	6	59
+rise	VB	O	7	59	SUPPORT
+14	CD	B-NP	8	59
+%	NN	I-NP	9	59	PRED	PARTITIVE-QUANT
+since	IN	B-PP	10	59
+1986	CD	B-NP	11	59
+to	IN	B-PP	12	59
+$	$	O	13	59
+650	CD	B-NP	14	59
+a	DT	B-NP	15	59
+metric	JJ	I-NP	16	59
+ton	NN	I-NP	17	59
+COMMA	COMMA	O	18	59
+analysts	NNS	B-NP	19	59
+are	VBP	O	20	59
+encouraged	VBN	O	21	59
+COMMA	COMMA	O	22	59
+because	IN	O	23	59
+they	PRP	B-NP	24	59
+do	VBP	O	25	59
+n't	RB	B-ADVP	26	59
+expect	VB	O	27	59
+a	DT	B-NP	28	59
+price	NN	I-NP	29	59
+increase	NN	I-NP	30	59
+for	IN	B-PP	31	59
+the	DT	B-NP	32	59
+rest	NN	I-NP	33	59
+of	IN	B-PP	34	59
+this	DT	B-NP	35	59
+year	NN	I-NP	36	59
+.	.	O	37	59
+
+For	IN	O	0	60
+instance	NN	B-NP	1	60
+COMMA	COMMA	O	2	60
+Gannett	NNP	B-NP	3	60
+Co.	NNP	I-NP	4	60
+posted	VBD	O	5	60
+an	DT	O	6	60
+11	CD	B-NP	7	60
+%	NN	I-NP	8	60	PRED	PARTITIVE-QUANT
+gain	NN	B-NP	9	60	SUPPORT
+in	IN	B-PP	10	60
+net	JJ	B-NP	11	60
+income	NN	I-NP	12	60	ARG1
+COMMA	COMMA	O	13	60
+as	IN	O	14	60
+total	JJ	B-NP	15	60
+ad	NN	I-NP	16	60
+pages	NNS	I-NP	17	60
+dropped	VBD	O	18	60
+at	IN	B-PP	19	60
+USA	NNP	B-NP	20	60
+Today	NNP	I-NP	21	60
+COMMA	COMMA	O	22	60
+but	CC	B-CONJP	23	60
+advertising	NN	B-NP	24	60
+revenue	NN	I-NP	25	60
+rose	VBD	O	26	60
+because	IN	B-PP	27	60
+of	IN	I-PP	28	60
+a	DT	B-NP	29	60
+higher	JJR	I-NP	30	60
+circulation	NN	I-NP	31	60
+rate	NN	I-NP	32	60
+base	NN	I-NP	33	60
+and	CC	O	34	60
+increased	VBN	O	35	60
+rates	NNS	B-NP	36	60
+.	.	O	37	60
+
+Gannett	NNP	B-NP	0	61
+'s	POS	B-NP	1	61
+83	CD	O	2	61
+daily	JJ	B-ADJP	3	61
+and	CC	B-NP	4	61
+35	CD	I-NP	5	61
+non-daily	JJ	I-NP	6	61
+newspapers	NNS	I-NP	7	61
+reported	VBD	O	8	61
+a	DT	O	9	61
+3	CD	B-NP	10	61
+%	NN	I-NP	11	61	PRED	PARTITIVE-QUANT
+increase	NN	B-NP	12	61	SUPPORT
+in	IN	B-PP	13	61
+advertising	NN	B-NP	14	61
+and	CC	I-NP	15	61
+circulation	NN	I-NP	16	61
+revenue	NN	I-NP	17	61	ARG1
+.	.	O	18	61
+
+Mr.	NNP	B-NP	0	65
+Sweig	NNP	I-NP	1	65
+said	VBD	O	2	65
+he	PRP	B-NP	3	65
+estimated	VBD	O	4	65
+that	IN	B-SBAR	5	65
+Lilly	NNP	B-NP	6	65
+'s	POS	B-NP	7	65
+earnings	NNS	I-NP	8	65	ARG1
+for	IN	B-PP	9	65
+the	DT	B-NP	10	65
+quarter	NN	I-NP	11	65
+jumped	VBD	O	12	65	SUPPORT
+about	RB	B-ADVP	13	65
+20	CD	B-NP	14	65
+%	NN	I-NP	15	65	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	16	65
+largely	RB	B-ADVP	17	65
+because	IN	B-PP	18	65
+of	IN	I-PP	19	65
+the	DT	B-NP	20	65
+performance	NN	I-NP	21	65
+of	IN	B-PP	22	65
+its	PRP$	B-NP	23	65
+new	JJ	I-NP	24	65
+anti-depressant	NN	I-NP	25	65
+Prozac	NNP	I-NP	26	65
+.	.	O	27	65
+
+Several	DT	B-NP	0	66
+analysts	NNS	I-NP	1	66
+said	VBD	O	2	66
+they	PRP	B-NP	3	66
+expected	VBD	O	4	66
+Warner-Lambert	NNP	B-NP	5	66
+'s	POS	B-NP	6	66
+profit	NN	I-NP	7	66	ARG1
+also	RB	O	8	66
+to	TO	O	9	66
+increase	VB	O	10	66	SUPPORT
+by	IN	B-PP	11	66	SUPPORT
+more	RBR	B-ADVP	12	66
+than	IN	B-NP	13	66
+20	CD	I-NP	14	66
+%	NN	I-NP	15	66	PRED	PARTITIVE-QUANT
+from	IN	B-PP	16	66
+$	$	O	17	66
+87.7	CD	B-NP	18	66
+million	CD	I-NP	19	66
+COMMA	COMMA	O	20	66
+or	CC	O	21	66
+$	$	O	22	66
+1.25	CD	B-NP	23	66
+a	DT	B-NP	24	66
+share	NN	I-NP	25	66
+COMMA	COMMA	O	26	66
+it	PRP	B-NP	27	66
+reported	VBD	O	28	66
+in	IN	B-PP	29	66
+the	DT	B-NP	30	66
+like	JJ	I-NP	31	66
+period	NN	I-NP	32	66
+last	JJ	B-NP	33	66
+year	NN	I-NP	34	66
+.	.	O	35	66
+
+In	IN	B-PP	0	67
+Madison	NNP	B-NP	1	67
+COMMA	COMMA	O	2	67
+N.J.	NNP	B-NP	3	67
+COMMA	COMMA	O	4	67
+a	DT	B-NP	5	67
+spokesman	NN	I-NP	6	67
+for	IN	B-PP	7	67
+Schering-Plough	NNP	B-NP	8	67
+said	VBD	O	9	67
+the	DT	B-NP	10	67
+company	NN	I-NP	11	67
+has	VBZ	O	12	67
+``	``	O	13	67
+no	DT	B-NP	14	67
+problems	NNS	I-NP	15	67
+''	''	O	16	67
+with	IN	B-PP	17	67
+the	DT	B-NP	18	67
+average	JJ	I-NP	19	67
+estimate	NN	I-NP	20	67
+by	IN	B-PP	21	67
+a	DT	B-NP	22	67
+analysts	NNS	I-NP	23	67
+that	IN	O	24	67
+third-quarter	NN	B-NP	25	67
+earnings	NNS	I-NP	26	67	ARG1
+per	IN	B-PP	27	67
+share	NN	B-NP	28	67
+rose	VBD	O	29	67	SUPPORT
+by	IN	B-PP	30	67	SUPPORT
+about	RB	B-ADVP	31	67
+19	CD	B-NP	32	67
+%	NN	I-NP	33	67	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	34	67
+to	IN	B-PP	35	67
+$	$	O	36	67
+1	CD	B-NP	37	67
+.	.	O	38	67
+
+The	DT	B-NP	0	68
+company	NN	I-NP	1	68
+expects	VBZ	O	2	68
+to	TO	O	3	68
+achieve	VB	O	4	68
+the	DT	O	5	68
+20	CD	B-NP	6	68
+%	NN	I-NP	7	68	PRED	PARTITIVE-QUANT
+increase	NN	B-NP	8	68	SUPPORT
+in	IN	B-PP	9	68
+full-year	NN	B-NP	10	68
+earnings	NNS	I-NP	11	68	ARG1
+per	IN	B-PP	12	68
+share	NN	B-NP	13	68
+COMMA	COMMA	O	14	68
+as	IN	B-SBAR	15	68
+it	PRP	B-NP	16	68
+projected	VBD	O	17	68
+in	IN	B-PP	18	68
+the	DT	B-NP	19	68
+spring	NN	I-NP	20	68
+COMMA	COMMA	O	21	68
+the	DT	B-NP	22	68
+spokesman	NN	I-NP	23	68
+said	VBD	O	24	68
+.	.	O	25	68
+
+Meanwhile	RB	O	0	69
+COMMA	COMMA	O	1	69
+analysts	NNS	B-NP	2	69
+said	VBD	O	3	69
+Pfizer	NNP	B-NP	4	69
+'s	POS	B-NP	5	69
+recent	JJ	B-ADJP	6	69
+string	NN	B-NP	7	69
+of	IN	B-PP	8	69
+lackluster	JJ	B-NP	9	69
+quarterly	JJ	I-NP	10	69
+performances	NNS	I-NP	11	69
+continued	VBD	O	12	69
+COMMA	COMMA	O	13	69
+as	IN	O	14	69
+earnings	NNS	B-NP	15	69	ARG1
+in	IN	B-PP	16	69
+the	DT	B-NP	17	69
+quarter	NN	I-NP	18	69
+were	VBD	O	19	69
+expected	VBN	O	20	69
+to	TO	O	21	69
+decline	VB	O	22	69	SUPPORT
+by	IN	B-PP	23	69	SUPPORT
+about	RB	B-ADVP	24	69
+5	CD	B-NP	25	69
+%	NN	I-NP	26	69	PRED	PARTITIVE-QUANT
+.	.	O	27	69
+
+Analysts	NNS	B-NP	0	70
+said	VBD	O	1	70
+they	PRP	B-NP	2	70
+expected	VBD	O	3	70
+Upjohn	NNP	B-NP	4	70
+'s	POS	B-NP	5	70
+profit	NN	I-NP	6	70	ARG1
+to	TO	O	7	70
+be	VB	O	8	70
+flat	JJ	B-ADJP	9	70
+or	CC	O	10	70
+rise	VB	O	11	70	SUPPORT
+by	IN	B-PP	12	70	SUPPORT
+only	RB	B-ADVP	13	70
+about	RB	B-ADVP	14	70
+2	CD	B-NP	15	70
+%	NN	I-NP	16	70	PRED	PARTITIVE-QUANT
+to	TO	O	17	70
+4	CD	B-NP	18	70
+%	NN	I-NP	19	70
+as	IN	B-SBAR	20	70
+compared	VBN	O	21	70
+with	IN	B-PP	22	70
+$	$	O	23	70
+89.6	CD	B-NP	24	70
+million	CD	I-NP	25	70
+COMMA	COMMA	O	26	70
+or	CC	O	27	70
+49	CD	B-NP	28	70
+cents	NNS	I-NP	29	70
+a	DT	B-NP	30	70
+share	NN	I-NP	31	70
+COMMA	COMMA	O	32	70
+it	PRP	B-NP	33	70
+earned	VBD	O	34	70
+a	DT	B-NP	35	70
+year	NN	I-NP	36	70
+ago	RB	B-ADVP	37	70
+.	.	O	38	70
+
+Analysts	NNS	B-NP	0	71
+said	VBD	O	1	71
+they	PRP	B-NP	2	71
+expected	VBD	O	3	71
+Upjohn	NNP	B-NP	4	71
+'s	POS	B-NP	5	71
+profit	NN	I-NP	6	71	ARG1
+to	TO	O	7	71
+be	VB	O	8	71
+flat	JJ	B-ADJP	9	71
+or	CC	O	10	71
+rise	VB	O	11	71	SUPPORT
+by	IN	B-PP	12	71	SUPPORT
+only	RB	B-ADVP	13	71
+about	RB	B-ADVP	14	71
+2	CD	B-NP	15	71
+%	NN	I-NP	16	71
+to	TO	O	17	71
+4	CD	B-NP	18	71
+%	NN	I-NP	19	71	PRED	PARTITIVE-QUANT
+as	IN	B-SBAR	20	71
+compared	VBN	O	21	71
+with	IN	B-PP	22	71
+$	$	O	23	71
+89.6	CD	B-NP	24	71
+million	CD	I-NP	25	71
+COMMA	COMMA	O	26	71
+or	CC	O	27	71
+49	CD	B-NP	28	71
+cents	NNS	I-NP	29	71
+a	DT	B-NP	30	71
+share	NN	I-NP	31	71
+COMMA	COMMA	O	32	71
+it	PRP	B-NP	33	71
+earned	VBD	O	34	71
+a	DT	B-NP	35	71
+year	NN	I-NP	36	71
+ago	RB	B-ADVP	37	71
+.	.	O	38	71
+
+Analysts	NNS	B-NP	0	72
+said	VBD	O	1	72
+profit	NN	B-NP	2	72	ARG1
+for	IN	B-PP	3	72
+the	DT	B-NP	4	72
+dozen	NN	I-NP	5	72
+or	CC	I-NP	6	72
+so	RB	I-NP	7	72
+big	JJ	I-NP	8	72
+drug	NN	I-NP	9	72
+makers	NNS	I-NP	10	72
+COMMA	COMMA	O	11	72
+as	IN	B-SBAR	12	72
+a	DT	B-NP	13	72
+group	NN	I-NP	14	72
+COMMA	COMMA	O	15	72
+is	VBZ	O	16	72
+estimated	VBN	O	17	72
+to	TO	O	18	72
+have	VB	O	19	72
+climbed	VBN	O	20	72	SUPPORT
+between	IN	B-NP	21	72
+11	CD	I-NP	22	72
+%	NN	I-NP	23	72	PRED	PARTITIVE-QUANT
+and	CC	I-NP	24	72
+14	CD	I-NP	25	72
+%	NN	I-NP	26	72
+.	.	O	27	72
+
+Analysts	NNS	B-NP	0	73
+said	VBD	O	1	73
+profit	NN	B-NP	2	73	ARG1
+for	IN	B-PP	3	73
+the	DT	B-NP	4	73
+dozen	NN	I-NP	5	73
+or	CC	I-NP	6	73
+so	RB	I-NP	7	73
+big	JJ	I-NP	8	73
+drug	NN	I-NP	9	73
+makers	NNS	I-NP	10	73
+COMMA	COMMA	O	11	73
+as	IN	B-SBAR	12	73
+a	DT	B-NP	13	73
+group	NN	I-NP	14	73
+COMMA	COMMA	O	15	73
+is	VBZ	O	16	73
+estimated	VBN	O	17	73
+to	TO	O	18	73
+have	VB	O	19	73
+climbed	VBN	O	20	73	SUPPORT
+between	IN	B-NP	21	73
+11	CD	I-NP	22	73
+%	NN	I-NP	23	73
+and	CC	I-NP	24	73
+14	CD	I-NP	25	73
+%	NN	I-NP	26	73	PRED	PARTITIVE-QUANT
+.	.	O	27	73
+
+Mr.	NNP	B-NP	0	74
+Sweig	NNP	I-NP	1	74
+estimated	VBD	O	2	74
+that	IN	B-SBAR	3	74
+Merck	NNP	B-NP	4	74
+'s	POS	B-NP	5	74
+profit	NN	I-NP	6	74	ARG1
+for	IN	B-PP	7	74
+the	DT	B-NP	8	74
+quarter	NN	I-NP	9	74
+rose	VBD	O	10	74	SUPPORT
+by	IN	B-PP	11	74	SUPPORT
+about	RB	B-ADVP	12	74
+22	CD	B-NP	13	74
+%	NN	I-NP	14	74	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	15	74
+propelled	VBN	O	16	74
+by	IN	B-PP	17	74
+sales	NNS	B-NP	18	74
+of	IN	B-PP	19	74
+its	PRP$	B-NP	20	74
+line-up	NN	I-NP	21	74
+of	IN	B-PP	22	74
+fast-growing	NN	B-NP	23	74
+prescription	NN	I-NP	24	74
+drugs	NNS	I-NP	25	74
+COMMA	COMMA	O	26	74
+including	VBG	O	27	74
+its	PRP$	B-NP	28	74
+anti-cholesterol	NN	I-NP	29	74
+drug	NN	I-NP	30	74
+COMMA	COMMA	O	31	74
+Mevacor	NNP	B-NP	32	74
+;	:	O	33	74
+a	DT	B-NP	34	74
+high	JJ	I-NP	35	74
+blood	NN	I-NP	36	74
+pressure	NN	I-NP	37	74
+medicine	NN	I-NP	38	74
+COMMA	COMMA	O	39	74
+Vasotec	NNP	B-NP	40	74
+;	:	O	41	74
+Primaxin	NNP	B-NP	42	74
+COMMA	COMMA	O	43	74
+an	DT	B-NP	44	74
+antibiotic	NN	I-NP	45	74
+COMMA	COMMA	O	46	74
+and	CC	O	47	74
+Pepcid	NNP	B-NP	48	74
+COMMA	COMMA	O	49	74
+an	DT	B-NP	50	74
+anti-ulcer	NN	I-NP	51	74
+medication	NN	I-NP	52	74
+.	.	O	53	74
+
+Amid	IN	B-PP	0	75
+a	DT	B-NP	1	75
+crowd	NN	I-NP	2	75
+of	IN	B-PP	3	75
+crashing	VBG	B-NP	4	75
+stocks	NNS	I-NP	5	75
+COMMA	COMMA	O	6	75
+Relational	NNP	B-NP	7	75
+Technology	NNP	I-NP	8	75
+Inc.	NNP	I-NP	9	75
+'s	POS	B-NP	10	75
+stock	NN	I-NP	11	75	ARG1
+fell	VBD	O	12	75
+particularly	RB	B-ADVP	13	75
+hard	RB	B-ADVP	14	75
+Friday	NNP	B-NP	15	75
+COMMA	COMMA	O	16	75
+dropping	VBG	O	17	75	SUPPORT
+23	CD	B-NP	18	75
+%	NN	I-NP	19	75	PRED	PARTITIVE-QUANT
+because	IN	O	20	75
+its	PRP$	O	21	75
+problems	NNS	B-NP	22	75
+were	VBD	O	23	75
+compounded	VBN	O	24	75
+by	IN	B-PP	25	75
+disclosure	NN	B-NP	26	75
+of	IN	B-PP	27	75
+an	DT	B-NP	28	75
+unexpected	JJ	I-NP	29	75
+loss	NN	I-NP	30	75
+for	IN	B-PP	31	75
+its	PRP$	B-NP	32	75
+fiscal	JJ	I-NP	33	75
+first	JJ	I-NP	34	75
+quarter	NN	I-NP	35	75
+.	.	O	36	75
+
+But	CC	B-CONJP	0	76
+on	IN	B-PP	1	76
+average	NN	B-NP	2	76
+COMMA	COMMA	O	3	76
+Manhattan	NNP	B-NP	4	76
+retail	JJ	I-NP	5	76
+rents	NNS	I-NP	6	76	ARG1
+have	VBP	O	7	76
+dropped	VBN	O	8	76	SUPPORT
+10	CD	B-NP	9	76
+%	NN	I-NP	10	76	PRED	PARTITIVE-QUANT
+to	TO	O	11	76
+15	CD	B-NP	12	76
+%	NN	I-NP	13	76
+in	IN	B-PP	14	76
+the	DT	B-NP	15	76
+past	JJ	I-NP	16	76
+six	CD	I-NP	17	76
+months	NNS	I-NP	18	76
+alone	RB	B-ADVP	19	76
+COMMA	COMMA	O	20	76
+experts	NNS	B-NP	21	76
+say	VBP	O	22	76
+.	.	O	23	76
+
+But	CC	B-CONJP	0	77
+on	IN	B-PP	1	77
+average	NN	B-NP	2	77
+COMMA	COMMA	O	3	77
+Manhattan	NNP	B-NP	4	77
+retail	JJ	I-NP	5	77
+rents	NNS	I-NP	6	77	ARG1
+have	VBP	O	7	77
+dropped	VBN	O	8	77	SUPPORT
+10	CD	B-NP	9	77
+%	NN	I-NP	10	77
+to	TO	O	11	77
+15	CD	B-NP	12	77
+%	NN	I-NP	13	77	PRED	PARTITIVE-QUANT
+in	IN	B-PP	14	77
+the	DT	B-NP	15	77
+past	JJ	I-NP	16	77
+six	CD	I-NP	17	77
+months	NNS	I-NP	18	77
+alone	RB	B-ADVP	19	77
+COMMA	COMMA	O	20	77
+experts	NNS	B-NP	21	77
+say	VBP	O	22	77
+.	.	O	23	77
+
+And	CC	B-CONJP	0	78
+Time	NNP	B-NP	1	78
+'s	POS	B-NP	2	78
+paid	VBN	O	3	78
+circulation	NN	B-NP	4	78	ARG1
+COMMA	COMMA	O	5	78
+according	VBG	B-PP	6	78
+to	IN	B-PP	7	78
+Audit	NNP	B-NP	8	78
+Bureau	NNP	I-NP	9	78
+of	IN	B-PP	10	78
+Circulations	NNP	B-NP	11	78
+COMMA	COMMA	O	12	78
+dropped	VBD	O	13	78	SUPPORT
+7.3	CD	B-NP	14	78
+%	NN	I-NP	15	78	PRED	PARTITIVE-QUANT
+to	IN	B-PP	16	78
+4COMMA393COMMA237	CD	B-NP	17	78
+in	IN	B-PP	18	78
+the	DT	B-NP	19	78
+six	CD	I-NP	20	78
+months	NNS	I-NP	21	78
+ended	VBN	O	22	78
+June	NNP	B-NP	23	78
+30	CD	I-NP	24	78
+COMMA	COMMA	I-NP	25	78
+1989	CD	I-NP	26	78
+.	.	O	27	78
+
+``	``	O	0	80
+We	PRP	B-NP	1	80
+would	MD	O	2	80
+obviously	RB	B-ADVP	3	80
+be	VB	O	4	80
+upset	VBN	O	5	80
+if	IN	O	6	80
+those	DT	B-NP	7	80
+kinds	NNS	I-NP	8	80
+of	IN	B-PP	9	80
+services	NNS	B-NP	10	80
+evolved	VBD	O	11	80
+into	IN	B-PP	12	80
+more	DT	B-NP	13	80
+general-interest	NN	I-NP	14	80
+COMMA	COMMA	B-NP	15	80
+long-format	NN	I-NP	16	80
+programming	NN	I-NP	17	80
+COMMA	COMMA	O	18	80
+''	''	O	19	80
+says	VBZ	O	20	80
+Robert	NNP	B-NP	21	80
+Stengel	NNP	I-NP	22	80
+COMMA	COMMA	O	23	80
+senior	JJ	B-NP	24	80
+vice	NN	I-NP	25	80
+president	NN	I-NP	26	80
+COMMA	COMMA	O	27	80
+programming	NN	B-NP	28	80
+COMMA	COMMA	O	29	80
+of	IN	B-PP	30	80
+Continental	NNP	B-NP	31	80
+Cablevision	NNP	I-NP	32	80
+Inc.	NNP	I-NP	33	80
+COMMA	COMMA	O	34	80
+which	WDT	B-NP	35	80
+holds	VBZ	O	36	80
+a	DT	O	37	80
+2	CD	B-NP	38	80
+%	NN	I-NP	39	80	PRED	PARTITIVE-QUANT
+stake	NN	B-NP	40	80	SUPPORT
+in	IN	B-PP	41	80
+Turner	NNP	B-NP	42	80
+Broadcasting	NNP	I-NP	43	80	ARG1
+.	.	O	44	80
+
+After	IN	O	0	81
+falling	VBG	O	1	81
+for	IN	B-PP	2	81
+three	CD	B-NP	3	81
+consecutive	JJ	I-NP	4	81
+months	NNS	I-NP	5	81
+COMMA	COMMA	O	6	81
+the	DT	B-NP	7	81
+producer	NN	I-NP	8	81
+price	NN	I-NP	9	81
+index	NN	I-NP	10	81	ARG1
+for	IN	B-PP	11	81
+finished	VBN	O	12	81
+goods	NNS	B-NP	13	81
+shot	VBD	O	14	81	SUPPORT
+up	RB	B-ADVP	15	81
+0.9	CD	B-NP	16	81
+%	NN	I-NP	17	81	PRED	PARTITIVE-QUANT
+last	JJ	B-NP	18	81
+month	NN	I-NP	19	81
+COMMA	COMMA	O	20	81
+the	DT	B-NP	21	81
+Labor	NNP	B-NP	22	81
+Department	NNP	I-NP	23	81
+reported	VBD	O	24	81
+Friday	NNP	B-NP	25	81
+COMMA	COMMA	O	26	81
+as	IN	O	27	81
+energy	NN	B-NP	28	81
+prices	NNS	I-NP	29	81
+jumped	VBD	O	30	81
+after	IN	O	31	81
+tumbling	VBG	O	32	81
+through	IN	B-PP	33	81
+the	DT	B-NP	34	81
+summer	NN	I-NP	35	81
+.	.	O	36	81
+
+Moreover	RB	O	0	82
+COMMA	COMMA	O	1	82
+this	DT	B-NP	2	82
+year	NN	I-NP	3	82
+'s	POS	B-NP	4	82
+good	JJ	I-NP	5	82
+inflation	NN	I-NP	6	82
+news	NN	I-NP	7	82
+may	MD	O	8	82
+have	VB	O	9	82
+ended	VBN	O	10	82
+last	JJ	B-NP	11	82
+month	NN	I-NP	12	82
+COMMA	COMMA	O	13	82
+when	IN	B-ADVP	14	82
+energy	NN	B-NP	15	82
+prices	NNS	I-NP	16	82	ARG1
+zoomed	VBD	O	17	82	SUPPORT
+up	RB	B-ADVP	18	82
+6.5	CD	B-NP	19	82
+%	NN	I-NP	20	82	PRED	PARTITIVE-QUANT
+after	IN	O	21	82
+plunging	VBG	O	22	82
+7.3	CD	B-NP	23	82
+%	NN	I-NP	24	82
+in	IN	B-PP	25	82
+August	NNP	B-NP	26	82
+.	.	O	27	82
+
+Moreover	RB	O	0	83
+COMMA	COMMA	O	1	83
+this	DT	B-NP	2	83
+year	NN	I-NP	3	83
+'s	POS	B-NP	4	83
+good	JJ	I-NP	5	83
+inflation	NN	I-NP	6	83
+news	NN	I-NP	7	83
+may	MD	O	8	83
+have	VB	O	9	83
+ended	VBN	O	10	83
+last	JJ	B-NP	11	83
+month	NN	I-NP	12	83
+COMMA	COMMA	O	13	83
+when	IN	B-ADVP	14	83
+energy	NN	B-NP	15	83
+prices	NNS	I-NP	16	83	ARG1
+zoomed	VBD	O	17	83
+up	RB	B-ADVP	18	83
+6.5	CD	B-NP	19	83
+%	NN	I-NP	20	83
+after	IN	O	21	83
+plunging	VBG	O	22	83	SUPPORT
+7.3	CD	B-NP	23	83
+%	NN	I-NP	24	83	PRED	PARTITIVE-QUANT
+in	IN	B-PP	25	83
+August	NNP	B-NP	26	83
+.	.	O	27	83
+
+Passenger	NN	B-NP	0	84
+car	NN	I-NP	1	84
+prices	NNS	I-NP	2	84	ARG1
+jumped	VBD	O	3	84
+3.8	CD	B-NP	4	84
+%	NN	I-NP	5	84
+in	IN	B-PP	6	84
+September	NNP	B-NP	7	84
+COMMA	COMMA	O	8	84
+after	IN	O	9	84
+climbing	VBG	O	10	84	SUPPORT
+0.5	CD	B-NP	11	84
+%	NN	I-NP	12	84	PRED	PARTITIVE-QUANT
+in	IN	B-PP	13	84
+August	NNP	B-NP	14	84
+and	CC	O	15	84
+declining	VBG	O	16	84
+in	IN	B-PP	17	84
+the	DT	B-NP	18	84
+late	JJ	I-NP	19	84
+spring	NN	I-NP	20	84
+and	CC	I-NP	21	84
+summer	NN	I-NP	22	84
+.	.	O	23	84
+
+Passenger	NN	B-NP	0	85
+car	NN	I-NP	1	85
+prices	NNS	I-NP	2	85	ARG1
+jumped	VBD	O	3	85	SUPPORT
+3.8	CD	B-NP	4	85
+%	NN	I-NP	5	85	PRED	PARTITIVE-QUANT
+in	IN	B-PP	6	85
+September	NNP	B-NP	7	85
+COMMA	COMMA	O	8	85
+after	IN	O	9	85
+climbing	VBG	O	10	85
+0.5	CD	B-NP	11	85
+%	NN	I-NP	12	85
+in	IN	B-PP	13	85
+August	NNP	B-NP	14	85
+and	CC	O	15	85
+declining	VBG	O	16	85
+in	IN	B-PP	17	85
+the	DT	B-NP	18	85
+late	JJ	I-NP	19	85
+spring	NN	I-NP	20	85
+and	CC	I-NP	21	85
+summer	NN	I-NP	22	85
+.	.	O	23	85
+
+Prices	NNS	B-NP	0	86
+for	IN	B-PP	1	86
+capital	NN	B-NP	2	86
+equipment	NN	I-NP	3	86
+rose	VBD	O	4	86
+a	DT	B-NP	5	86
+hefty	JJ	I-NP	6	86
+1.1	CD	I-NP	7	86
+%	NN	I-NP	8	86
+in	IN	B-PP	9	86
+September	NNP	B-NP	10	86
+COMMA	COMMA	O	11	86
+while	IN	O	12	86
+prices	NNS	B-NP	13	86	ARG1
+for	IN	B-PP	14	86
+home	NN	B-NP	15	86
+electronic	JJ	I-NP	16	86
+equipment	NN	I-NP	17	86
+fell	VBD	O	18	86	SUPPORT
+1.1	CD	B-NP	19	86
+%	NN	I-NP	20	86	PRED	PARTITIVE-QUANT
+.	.	O	21	86
+
+Prices	NNS	B-NP	0	87	ARG1
+for	IN	B-PP	1	87
+capital	NN	B-NP	2	87
+equipment	NN	I-NP	3	87
+rose	VBD	O	4	87	SUPPORT
+a	DT	B-NP	5	87
+hefty	JJ	I-NP	6	87
+1.1	CD	I-NP	7	87
+%	NN	I-NP	8	87	PRED	PARTITIVE-QUANT
+in	IN	B-PP	9	87
+September	NNP	B-NP	10	87
+COMMA	COMMA	O	11	87
+while	IN	O	12	87
+prices	NNS	B-NP	13	87
+for	IN	B-PP	14	87
+home	NN	B-NP	15	87
+electronic	JJ	I-NP	16	87
+equipment	NN	I-NP	17	87
+fell	VBD	O	18	87
+1.1	CD	B-NP	19	87
+%	NN	I-NP	20	87
+.	.	O	21	87
+
+Food	NN	B-NP	0	88
+prices	NNS	I-NP	1	88	ARG1
+declined	VBD	O	2	88
+0.6	CD	B-NP	3	88
+%	NN	I-NP	4	88
+COMMA	COMMA	O	5	88
+after	IN	O	6	88
+climbing	VBG	O	7	88	SUPPORT
+0.3	CD	B-NP	8	88
+%	NN	I-NP	9	88	PRED	PARTITIVE-QUANT
+in	IN	B-PP	10	88
+August	NNP	B-NP	11	88
+.	.	O	12	88
+
+Food	NN	B-NP	0	89
+prices	NNS	I-NP	1	89	ARG1
+declined	VBD	O	2	89	SUPPORT
+0.6	CD	B-NP	3	89
+%	NN	I-NP	4	89	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	5	89
+after	IN	O	6	89
+climbing	VBG	O	7	89
+0.3	CD	B-NP	8	89
+%	NN	I-NP	9	89
+in	IN	B-PP	10	89
+August	NNP	B-NP	11	89
+.	.	O	12	89
+
+Meanwhile	RB	O	0	90
+COMMA	COMMA	O	1	90
+the	DT	B-NP	2	90
+retail	JJ	I-NP	3	90
+sales	NNS	I-NP	4	90
+report	NN	I-NP	5	90
+showed	VBD	O	6	90
+that	IN	B-SBAR	7	90
+car	NN	B-NP	8	90
+sales	NNS	I-NP	9	90	ARG1
+rose	VBD	O	10	90	SUPPORT
+0.8	CD	B-NP	11	90
+%	NN	I-NP	12	90	PRED	PARTITIVE-QUANT
+in	IN	B-PP	13	90
+September	NNP	B-NP	14	90
+to	IN	B-PP	15	90
+$	$	O	16	90
+32.82	CD	B-NP	17	90
+billion	CD	I-NP	18	90
+.	.	O	19	90
+
+Sales	NNS	B-NP	0	91	ARG1
+at	IN	B-PP	1	91
+general	JJ	B-NP	2	91
+merchandise	NN	I-NP	3	91
+stores	NNS	I-NP	4	91
+rose	VBD	O	5	91
+1.7	CD	B-NP	6	91
+%	NN	I-NP	7	91
+after	IN	O	8	91
+declining	VBG	O	9	91	SUPPORT
+0.6	CD	B-NP	10	91
+%	NN	I-NP	11	91	PRED	PARTITIVE-QUANT
+in	IN	B-PP	12	91
+August	NNP	B-NP	13	91
+COMMA	COMMA	O	14	91
+while	IN	O	15	91
+sales	NNS	B-NP	16	91
+of	IN	B-PP	17	91
+building	NN	B-NP	18	91
+materials	NNS	I-NP	19	91
+fell	VBD	O	20	91
+1.8	CD	B-NP	21	91
+%	NN	I-NP	22	91
+after	IN	O	23	91
+rising	VBG	O	24	91
+1.7	CD	B-NP	25	91
+%	NN	I-NP	26	91
+.	.	O	27	91
+
+Sales	NNS	B-NP	0	92
+at	IN	B-PP	1	92
+general	JJ	B-NP	2	92
+merchandise	NN	I-NP	3	92
+stores	NNS	I-NP	4	92
+rose	VBD	O	5	92
+1.7	CD	B-NP	6	92
+%	NN	I-NP	7	92
+after	IN	O	8	92
+declining	VBG	O	9	92
+0.6	CD	B-NP	10	92
+%	NN	I-NP	11	92
+in	IN	B-PP	12	92
+August	NNP	B-NP	13	92
+COMMA	COMMA	O	14	92
+while	IN	O	15	92
+sales	NNS	B-NP	16	92	ARG1
+of	IN	B-PP	17	92
+building	NN	B-NP	18	92
+materials	NNS	I-NP	19	92
+fell	VBD	O	20	92	SUPPORT
+1.8	CD	B-NP	21	92
+%	NN	I-NP	22	92	PRED	PARTITIVE-QUANT
+after	IN	O	23	92
+rising	VBG	O	24	92
+1.7	CD	B-NP	25	92
+%	NN	I-NP	26	92
+.	.	O	27	92
+
+Sales	NNS	B-NP	0	93
+at	IN	B-PP	1	93
+general	JJ	B-NP	2	93
+merchandise	NN	I-NP	3	93
+stores	NNS	I-NP	4	93
+rose	VBD	O	5	93
+1.7	CD	B-NP	6	93
+%	NN	I-NP	7	93
+after	IN	O	8	93
+declining	VBG	O	9	93
+0.6	CD	B-NP	10	93
+%	NN	I-NP	11	93
+in	IN	B-PP	12	93
+August	NNP	B-NP	13	93
+COMMA	COMMA	O	14	93
+while	IN	O	15	93
+sales	NNS	B-NP	16	93	ARG1
+of	IN	B-PP	17	93
+building	NN	B-NP	18	93
+materials	NNS	I-NP	19	93
+fell	VBD	O	20	93
+1.8	CD	B-NP	21	93
+%	NN	I-NP	22	93
+after	IN	O	23	93
+rising	VBG	O	24	93	SUPPORT
+1.7	CD	B-NP	25	93
+%	NN	I-NP	26	93	PRED	PARTITIVE-QUANT
+.	.	O	27	93
+
+Sales	NNS	B-NP	0	94	ARG1
+at	IN	B-PP	1	94
+general	JJ	B-NP	2	94
+merchandise	NN	I-NP	3	94
+stores	NNS	I-NP	4	94
+rose	VBD	O	5	94	SUPPORT
+1.7	CD	B-NP	6	94
+%	NN	I-NP	7	94	PRED	PARTITIVE-QUANT
+after	IN	O	8	94
+declining	VBG	O	9	94
+0.6	CD	B-NP	10	94
+%	NN	I-NP	11	94
+in	IN	B-PP	12	94
+August	NNP	B-NP	13	94
+COMMA	COMMA	O	14	94
+while	IN	O	15	94
+sales	NNS	B-NP	16	94
+of	IN	B-PP	17	94
+building	NN	B-NP	18	94
+materials	NNS	I-NP	19	94
+fell	VBD	O	20	94
+1.8	CD	B-NP	21	94
+%	NN	I-NP	22	94
+after	IN	O	23	94
+rising	VBG	O	24	94
+1.7	CD	B-NP	25	94
+%	NN	I-NP	26	94
+.	.	O	27	94
+
+Producer	NN	B-NP	0	95
+prices	NNS	I-NP	1	95	ARG1
+for	IN	B-PP	2	95
+intermediate	JJ	B-NP	3	95
+goods	NNS	I-NP	4	95
+grew	VBD	O	5	95	SUPPORT
+0.4	CD	B-NP	6	95
+%	NN	I-NP	7	95	PRED	PARTITIVE-QUANT
+in	IN	B-PP	8	95
+September	NNP	B-NP	9	95
+COMMA	COMMA	O	10	95
+after	IN	O	11	95
+dropping	VBG	O	12	95
+for	IN	B-PP	13	95
+three	CD	B-NP	14	95
+consecutive	JJ	I-NP	15	95
+months	NNS	I-NP	16	95
+.	.	O	17	95
+
+Prices	NNS	B-NP	0	96	ARG1
+for	IN	B-PP	1	96
+crude	JJ	B-NP	2	96
+goods	NNS	I-NP	3	96
+COMMA	COMMA	O	4	96
+an	DT	B-NP	5	96
+array	NN	I-NP	6	96
+of	IN	B-PP	7	96
+raw	JJ	B-NP	8	96
+materials	NNS	I-NP	9	96
+COMMA	COMMA	O	10	96
+jumped	VBD	O	11	96	SUPPORT
+1.1	CD	B-NP	12	96
+%	NN	I-NP	13	96	PRED	PARTITIVE-QUANT
+after	IN	O	14	96
+declining	VBG	O	15	96
+1.9	CD	B-NP	16	96
+%	NN	I-NP	17	96
+in	IN	B-PP	18	96
+August	NNP	B-NP	19	96
+and	CC	O	20	96
+edging	VBG	O	21	96
+up	RP	B-ADVP	22	96
+0.2	CD	B-NP	23	96
+%	NN	I-NP	24	96
+in	IN	B-PP	25	96
+July	NNP	B-NP	26	96
+.	.	O	27	96
+
+Prices	NNS	B-NP	0	97	ARG1
+for	IN	B-PP	1	97
+crude	JJ	B-NP	2	97
+goods	NNS	I-NP	3	97
+COMMA	COMMA	O	4	97
+an	DT	B-NP	5	97
+array	NN	I-NP	6	97
+of	IN	B-PP	7	97
+raw	JJ	B-NP	8	97
+materials	NNS	I-NP	9	97
+COMMA	COMMA	O	10	97
+jumped	VBD	O	11	97
+1.1	CD	B-NP	12	97
+%	NN	I-NP	13	97
+after	IN	O	14	97
+declining	VBG	O	15	97	SUPPORT
+1.9	CD	B-NP	16	97
+%	NN	I-NP	17	97	PRED	PARTITIVE-QUANT
+in	IN	B-PP	18	97
+August	NNP	B-NP	19	97
+and	CC	O	20	97
+edging	VBG	O	21	97
+up	RP	B-ADVP	22	97
+0.2	CD	B-NP	23	97
+%	NN	I-NP	24	97
+in	IN	B-PP	25	97
+July	NNP	B-NP	26	97
+.	.	O	27	97
+
+Prices	NNS	B-NP	0	98	ARG1
+for	IN	B-PP	1	98
+crude	JJ	B-NP	2	98
+goods	NNS	I-NP	3	98
+COMMA	COMMA	O	4	98
+an	DT	B-NP	5	98
+array	NN	I-NP	6	98
+of	IN	B-PP	7	98
+raw	JJ	B-NP	8	98
+materials	NNS	I-NP	9	98
+COMMA	COMMA	O	10	98
+jumped	VBD	O	11	98
+1.1	CD	B-NP	12	98
+%	NN	I-NP	13	98
+after	IN	O	14	98
+declining	VBG	O	15	98
+1.9	CD	B-NP	16	98
+%	NN	I-NP	17	98
+in	IN	B-PP	18	98
+August	NNP	B-NP	19	98
+and	CC	O	20	98
+edging	VBG	O	21	98	SUPPORT
+up	RP	B-ADVP	22	98
+0.2	CD	B-NP	23	98
+%	NN	I-NP	24	98	PRED	PARTITIVE-QUANT
+in	IN	B-PP	25	98
+July	NNP	B-NP	26	98
+.	.	O	27	98
+
+Further	RB	B-ADVP	0	99
+fueling	VBG	O	1	99
+the	DT	B-NP	2	99
+belief	NN	B-NP	3	99
+that	IN	O	4	99
+pressures	NNS	B-NP	5	99
+in	IN	B-PP	6	99
+the	DT	B-NP	7	99
+economy	NN	I-NP	8	99
+were	VBD	O	9	99
+sufficient	JJ	B-ADJP	10	99
+to	TO	O	11	99
+keep	VB	O	12	99
+the	DT	B-NP	13	99
+Fed	NNP	I-NP	14	99
+from	IN	B-PP	15	99
+easing	VBG	O	16	99
+credit	NN	B-NP	17	99
+COMMA	COMMA	O	18	99
+the	DT	B-NP	19	99
+Commerce	NNP	B-NP	20	99
+Department	NNP	I-NP	21	99
+reported	VBD	O	22	99
+Friday	NNP	B-NP	23	99
+that	IN	B-SBAR	24	99
+retail	JJ	B-NP	25	99
+sales	NNS	I-NP	26	99	ARG1
+grew	VBD	O	27	99	SUPPORT
+0.5	CD	B-NP	28	99
+%	NN	I-NP	29	99	PRED	PARTITIVE-QUANT
+in	IN	B-PP	30	99
+September	NNP	B-NP	31	99
+COMMA	COMMA	O	32	99
+to	IN	B-PP	33	99
+$	$	O	34	99
+145.21	CD	B-NP	35	99
+billion	CD	I-NP	36	99
+.	.	O	37	99
+
+``	``	O	0	100
+The	DT	O	1	100
+overall	JJ	O	2	100
+0.9	CD	B-NP	3	100
+%	NN	I-NP	4	100
+increase	NN	B-NP	5	100
+is	VBZ	O	6	100
+serious	JJ	B-ADJP	7	100
+in	IN	B-PP	8	100
+itself	PRP	B-NP	9	100
+COMMA	COMMA	O	10	100
+but	CC	B-CONJP	11	100
+what	WP	B-NP	12	100
+is	VBZ	O	13	100
+even	RB	B-ADJP	14	100
+worse	JJR	O	15	100
+is	VBZ	O	16	100
+that	IN	O	17	100
+excluding	VBG	O	18	100
+food	NN	B-NP	19	100
+and	CC	I-NP	20	100
+energy	NN	I-NP	21	100
+COMMA	COMMA	O	22	100
+the	DT	B-NP	23	100
+producer	NN	I-NP	24	100
+price	NN	I-NP	25	100
+index	NN	I-NP	26	100	ARG1
+still	RB	O	27	100
+increased	VBD	O	28	100	SUPPORT
+by	IN	B-PP	29	100	SUPPORT
+0.7	CD	B-NP	30	100
+%	NN	I-NP	31	100	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	32	100
+''	''	O	33	100
+said	VBD	O	34	100
+Gordon	NNP	B-NP	35	100
+Richards	NNP	I-NP	36	100
+COMMA	COMMA	O	37	100
+an	DT	B-NP	38	100
+economist	NN	I-NP	39	100
+at	IN	B-PP	40	100
+the	DT	B-NP	41	100
+National	NNP	B-NP	42	100
+Association	NNP	I-NP	43	100
+of	IN	B-PP	44	100
+Manufacturers	NNP	B-NP	45	100
+.	.	O	46	100
+
+Inland	NNP	B-NP	0	110
+Steel	NNP	I-NP	1	110
+Industries	NNP	I-NP	2	110
+Inc.	NNP	I-NP	3	110
+expects	VBZ	O	4	110
+to	TO	O	5	110
+report	VB	O	6	110
+that	IN	B-SBAR	7	110
+third-quarter	NN	B-NP	8	110
+earnings	NNS	I-NP	9	110	ARG1
+dropped	VBD	O	10	110	SUPPORT
+more	RBR	B-ADVP	11	110
+than	IN	B-NP	12	110
+50	CD	I-NP	13	110
+%	NN	I-NP	14	110	PRED	PARTITIVE-QUANT
+from	IN	B-PP	15	110
+the	DT	B-NP	16	110
+previous	JJ	I-NP	17	110
+quarter	NN	I-NP	18	110
+as	IN	B-SBAR	19	110
+a	DT	B-NP	20	110
+result	NN	I-NP	21	110
+of	IN	B-PP	22	110
+reduced	VBN	O	23	110
+sales	NNS	B-NP	24	110
+volume	NN	I-NP	25	110
+and	CC	O	26	110
+increased	VBN	O	27	110
+costs	NNS	B-NP	28	110
+.	.	O	29	110
+
+Last	JJ	B-NP	0	111
+week	NN	I-NP	1	111
+COMMA	COMMA	O	2	111
+Microsoft	NNP	B-NP	3	111
+said	VBD	O	4	111
+it	PRP	B-NP	5	111
+expects	VBZ	O	6	111
+revenue	NN	B-NP	7	111	ARG1
+for	IN	B-PP	8	111
+its	PRP$	B-NP	9	111
+first	JJ	I-NP	10	111
+quarter	NN	I-NP	11	111
+ended	VBN	O	12	111
+Sept.	NNP	B-NP	13	111
+30	CD	I-NP	14	111
+to	TO	O	15	111
+increase	VB	O	16	111	SUPPORT
+34	CD	B-NP	17	111
+%	NN	I-NP	18	111	PRED	PARTITIVE-QUANT
+.	.	O	19	111
+
+Iowa	NNP	B-NP	0	120
+COMMA	COMMA	O	1	120
+for	IN	O	2	120
+instance	NN	B-NP	3	120
+COMMA	COMMA	O	4	120
+saw	VBD	O	5	120
+its	PRP$	B-NP	6	120
+population	NN	I-NP	7	120	ARG1
+grow	VB	O	8	120	SUPPORT
+by	IN	B-PP	9	120	SUPPORT
+11COMMA000	CD	B-NP	10	120
+people	NNS	I-NP	11	120
+COMMA	COMMA	O	12	120
+or	CC	O	13	120
+0.4	CD	B-NP	14	120
+%	NN	I-NP	15	120	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	16	120
+between	IN	B-NP	17	120
+1987	CD	I-NP	18	120
+and	CC	I-NP	19	120
+1988	CD	I-NP	20	120
+COMMA	COMMA	O	21	120
+the	DT	B-NP	22	120
+Census	NNP	B-NP	23	120
+Bureau	NNP	I-NP	24	120
+says	VBZ	O	25	120
+.	.	O	26	120
+
+``	``	O	0	123
+Those	DT	B-NP	1	123
+corrections	NNS	I-NP	2	123
+lasted	VBD	O	3	123
+one	CD	B-NP	4	123
+to	TO	I-NP	5	123
+four	CD	I-NP	6	123
+weeks	NNS	I-NP	7	123
+and	CC	O	8	123
+took	VBD	O	9	123	SUPPORT
+the	DT	B-NP	10	123
+market	NN	I-NP	11	123	ARG1
+10%-12	CD	B-NP	12	123
+%	NN	I-NP	13	123	PRED	PARTITIVE-QUANT
+down	RB	B-ADVP	14	123	SUPPORT
+COMMA	COMMA	O	15	123
+''	''	O	16	123
+she	PRP	B-NP	17	123
+says	VBZ	O	18	123
+.	.	O	19	123
+
+Nonetheless	RB	O	0	125
+COMMA	COMMA	O	1	125
+the	DT	B-NP	2	125
+Nasdaq	NNP	B-NP	3	125
+Composite	NNP	I-NP	4	125
+Index	NNP	I-NP	5	125	ARG1
+suffered	VBD	O	6	125
+its	PRP$	O	7	125
+biggest	JJS	B-NP	8	125
+point	NN	I-NP	9	125
+decline	NN	I-NP	10	125
+of	IN	B-PP	11	125
+the	DT	B-NP	12	125
+year	NN	I-NP	13	125
+and	CC	O	14	125
+its	PRP$	B-NP	15	125
+sixth	JJ	I-NP	16	125
+worst	JJS	I-NP	17	125
+ever	RB	I-NP	18	125
+COMMA	COMMA	O	19	125
+diving	VBG	O	20	125	SUPPORT
+14.90	CD	B-NP	21	125
+COMMA	COMMA	O	22	125
+or	CC	O	23	125
+3	CD	B-NP	24	125
+%	NN	I-NP	25	125	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	26	125
+to	IN	B-PP	27	125
+467.29	CD	B-NP	28	125
+.	.	O	29	125
+
+The	DT	O	0	126
+Nasdaq	NNP	B-NP	1	126
+100	CD	B-NP	2	126
+Index	NNP	I-NP	3	126	ARG1
+of	IN	B-PP	4	126
+the	DT	B-NP	5	126
+largest	JJS	I-NP	6	126
+nonfinancial	JJ	I-NP	7	126
+issues	NNS	I-NP	8	126
+COMMA	COMMA	O	9	126
+including	VBG	O	10	126
+the	DT	B-NP	11	126
+big	JJ	I-NP	12	126
+OTC	NNP	I-NP	13	126
+technology	NN	I-NP	14	126
+issues	NNS	I-NP	15	126
+COMMA	COMMA	O	16	126
+tumbled	VBD	O	17	126	SUPPORT
+4.2	CD	B-NP	18	126
+%	NN	I-NP	19	126	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	20	126
+or	CC	O	21	126
+19.76	CD	B-NP	22	126
+COMMA	COMMA	O	23	126
+to	IN	B-PP	24	126
+449.33	CD	B-NP	25	126
+.	.	O	26	126
+
+The	DT	B-NP	0	127
+Nasdaq	NNP	B-NP	1	127
+Financial	NNP	I-NP	2	127
+Index	NNP	I-NP	3	127	ARG1
+of	IN	B-PP	4	127
+giant	NN	B-NP	5	127
+insurance	NN	I-NP	6	127
+and	CC	I-NP	7	127
+banking	NN	I-NP	8	127
+stocks	NNS	I-NP	9	127
+dropped	VBD	O	10	127	SUPPORT
+2	CD	B-NP	11	127
+%	NN	I-NP	12	127	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	13	127
+or	CC	O	14	127
+9.31	CD	B-NP	15	127
+COMMA	COMMA	O	16	127
+to	IN	B-PP	17	127
+462.98	CD	B-NP	18	127
+.	.	O	19	127
+
+McCaw	NNP	B-NP	0	128	ARG1
+lost	VBD	O	1	128	SUPPORT
+8	CD	B-NP	2	128
+%	NN	I-NP	3	128	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	4	128
+or	CC	O	5	128
+3	CD	B-NP	6	128
+1/2	CD	I-NP	7	128
+COMMA	COMMA	O	8	128
+to	IN	B-PP	9	128
+40	CD	B-NP	10	128
+.	.	O	11	128
+
+LIN	NNP	B-NP	0	129
+Broadcasting	NNP	I-NP	1	129	ARG1
+COMMA	COMMA	O	2	129
+dropped	VBD	O	3	129	SUPPORT
+5	CD	B-NP	4	129
+1/2	CD	I-NP	5	129
+COMMA	COMMA	O	6	129
+or	CC	O	7	129
+5	CD	B-NP	8	129
+%	NN	I-NP	9	129	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	10	129
+to	IN	B-PP	11	129
+107	CD	B-NP	12	129
+1/2	CD	I-NP	13	129
+.	.	O	14	129
+
+By	IN	O	0	130
+comparison	NN	B-NP	1	130
+COMMA	COMMA	O	2	130
+the	DT	B-NP	3	130
+New	NNP	B-NP	4	130
+York	NNP	I-NP	5	130
+Stock	NNP	I-NP	6	130
+Exchange	NNP	I-NP	7	130
+Composite	NNP	I-NP	8	130	ARG1
+tumbled	VBD	O	9	130	SUPPORT
+5.8	CD	B-NP	10	130
+%	NN	I-NP	11	130	PRED	PARTITIVE-QUANT
+Friday	NNP	B-NP	12	130
+and	CC	B-CONJP	13	130
+the	DT	B-NP	14	130
+American	NNP	B-NP	15	130
+Stock	NNP	I-NP	16	130
+Exchange	NNP	I-NP	17	130
+Composite	NNP	I-NP	18	130
+fell	VBD	O	19	130
+4	CD	B-NP	20	130
+%	NN	I-NP	21	130
+.	.	O	22	130
+
+By	IN	O	0	131
+comparison	NN	B-NP	1	131
+COMMA	COMMA	O	2	131
+the	DT	B-NP	3	131
+New	NNP	B-NP	4	131
+York	NNP	I-NP	5	131
+Stock	NNP	I-NP	6	131
+Exchange	NNP	I-NP	7	131
+Composite	NNP	I-NP	8	131
+tumbled	VBD	O	9	131
+5.8	CD	B-NP	10	131
+%	NN	I-NP	11	131
+Friday	NNP	B-NP	12	131
+and	CC	B-CONJP	13	131
+the	DT	B-NP	14	131
+American	NNP	B-NP	15	131
+Stock	NNP	I-NP	16	131
+Exchange	NNP	I-NP	17	131
+Composite	NNP	I-NP	18	131	ARG1
+fell	VBD	O	19	131	SUPPORT
+4	CD	B-NP	20	131
+%	NN	I-NP	21	131	PRED	PARTITIVE-QUANT
+.	.	O	22	131
+
+On	IN	B-PP	0	132
+Oct.	NNP	B-NP	1	132
+16	CD	I-NP	2	132
+COMMA	COMMA	I-NP	3	132
+1987	CD	I-NP	4	132
+COMMA	COMMA	O	5	132
+the	DT	B-NP	6	132
+Nasdaq	NNP	B-NP	7	132
+Composite	NNP	I-NP	8	132	ARG1
+fell	VBD	O	9	132	SUPPORT
+16.18	CD	B-NP	10	132
+points	NNS	I-NP	11	132
+COMMA	COMMA	O	12	132
+or	CC	O	13	132
+3.8	CD	B-NP	14	132
+%	NN	I-NP	15	132	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	16	132
+followed	VBN	O	17	132
+by	IN	B-PP	18	132
+its	PRP$	O	19	132
+devastating	VBG	B-ADJP	20	132
+46.12-point	NN	B-NP	21	132
+COMMA	COMMA	O	22	132
+or	CC	O	23	132
+11	CD	B-NP	24	132
+%	NN	I-NP	25	132
+slide	NN	B-NP	26	132
+COMMA	COMMA	O	27	132
+three	CD	B-NP	28	132
+days	NNS	I-NP	29	132
+later	RBR	B-ADVP	30	132
+.	.	O	31	132
+
+On	IN	B-PP	0	133
+Oct.	NNP	B-NP	1	133
+16	CD	I-NP	2	133
+COMMA	COMMA	I-NP	3	133
+1987	CD	I-NP	4	133
+COMMA	COMMA	O	5	133
+the	DT	B-NP	6	133
+Nasdaq	NNP	B-NP	7	133
+Composite	NNP	I-NP	8	133
+fell	VBD	O	9	133
+16.18	CD	B-NP	10	133
+points	NNS	I-NP	11	133
+COMMA	COMMA	O	12	133
+or	CC	O	13	133
+3.8	CD	B-NP	14	133
+%	NN	I-NP	15	133
+COMMA	COMMA	O	16	133
+followed	VBN	O	17	133
+by	IN	B-PP	18	133
+its	PRP$	O	19	133	ARG1
+devastating	VBG	B-ADJP	20	133
+46.12-point	NN	B-NP	21	133
+COMMA	COMMA	O	22	133
+or	CC	O	23	133
+11	CD	B-NP	24	133
+%	NN	I-NP	25	133	PRED	PARTITIVE-QUANT
+slide	NN	B-NP	26	133	SUPPORT
+COMMA	COMMA	O	27	133
+three	CD	B-NP	28	133
+days	NNS	I-NP	29	133
+later	RBR	B-ADVP	30	133
+.	.	O	31	133
+
+Stocks	NNS	B-NP	0	134	ARG1
+COMMA	COMMA	O	1	134
+as	IN	B-SBAR	2	134
+measured	VBN	O	3	134
+by	IN	B-PP	4	134
+the	DT	B-NP	5	134
+Standard	NNP	B-NP	6	134
+&	NNP	I-NP	7	134
+Poor	NNP	I-NP	8	134
+'s	POS	B-NP	9	134
+500-stock	NNP	I-NP	10	134
+index	NN	I-NP	11	134
+COMMA	COMMA	O	12	134
+have	VBP	O	13	134
+been	VBN	O	14	134
+stellar	JJ	B-NP	15	134
+performers	NNS	I-NP	16	134
+this	DT	B-NP	17	134
+year	NN	I-NP	18	134
+COMMA	COMMA	O	19	134
+rising	VBG	O	20	134	SUPPORT
+27.97	CD	B-NP	21	134
+%	NN	I-NP	22	134	PRED	PARTITIVE-QUANT
+before	IN	B-PP	23	134
+Friday	NNP	B-NP	24	134
+'s	POS	B-NP	25	134
+plunge	NN	I-NP	26	134
+COMMA	COMMA	O	27	134
+excluding	VBG	O	28	134
+dividends	NNS	B-NP	29	134
+.	.	O	30	134
+
+The	DT	B-NP	0	136
+nation	NN	I-NP	1	136
+'s	POS	B-NP	2	136
+largest	JJS	I-NP	3	136
+short-selling	NN	I-NP	4	136
+operation	NN	I-NP	5	136
+is	VBZ	O	6	136
+Feshbach	NNP	B-NP	7	136
+Brothers	NNP	I-NP	8	136
+COMMA	COMMA	O	9	136
+Palo	NNP	B-NP	10	136
+Alto	NNP	I-NP	11	136
+COMMA	COMMA	O	12	136
+Calif.	NNP	B-NP	13	136
+COMMA	COMMA	O	14	136
+which	WDT	B-NP	15	136
+said	VBD	O	16	136
+last	JJ	B-NP	17	136
+May	NNP	I-NP	18	136
+that	IN	B-SBAR	19	136
+its	PRP$	B-NP	20	136
+short	JJ	I-NP	21	136
+positions	NNS	I-NP	22	136	ARG1
+had	VBD	O	23	136
+shown	VBN	O	24	136	SUPPORT
+losses	NNS	B-NP	25	136	SUPPORT
+of	IN	B-PP	26	136	SUPPORT
+10	CD	B-NP	27	136
+%	NN	I-NP	28	136	PRED	PARTITIVE-QUANT
+for	IN	B-PP	29	136
+the	DT	B-NP	30	136
+year	NN	I-NP	31	136
+up	IN	B-PP	32	136
+to	IN	B-PP	33	136
+that	DT	B-NP	34	136
+point	NN	I-NP	35	136
+.	.	O	36	136
+
+Speaking	VBG	O	0	137
+through	IN	B-PP	1	137
+its	PRP$	B-NP	2	137
+Dutch	JJ	I-NP	3	137
+lawyers	NNS	I-NP	4	137
+COMMA	COMMA	O	5	137
+ASKO	NNP	B-NP	6	137
+also	RB	O	7	137
+disclosed	VBD	O	8	137
+it	PRP	B-NP	9	137
+holds	VBZ	O	10	137
+a	DT	O	11	137
+15	CD	B-NP	12	137
+%	NN	I-NP	13	137	PRED	PARTITIVE-QUANT
+stake	NN	B-NP	14	137	SUPPORT
+in	IN	B-PP	15	137
+Ahold	NNP	B-NP	16	137	ARG1
+.	.	O	17	137
+
+Sharp	JJ	B-NP	0	140
+increases	NNS	I-NP	1	140
+in	IN	B-PP	2	140
+the	DT	B-NP	3	140
+price	NN	I-NP	4	140
+of	IN	B-PP	5	140
+fresh	JJ	B-NP	6	140
+produce	NN	I-NP	7	140
+caused	VBD	O	8	140
+Spain	NNP	B-NP	9	140
+'s	POS	B-NP	10	140
+September	NNP	I-NP	11	140
+consumer	NN	I-NP	12	140
+price	NN	I-NP	13	140
+index	NN	I-NP	14	140	ARG1
+to	TO	O	15	140
+shoot	VB	O	16	140	SUPPORT
+up	RB	B-ADVP	17	140
+1.1	CD	B-NP	18	140
+%	NN	I-NP	19	140	PRED	PARTITIVE-QUANT
+from	IN	B-PP	20	140
+the	DT	B-NP	21	140
+previous	JJ	I-NP	22	140
+month	NN	I-NP	23	140
+COMMA	COMMA	O	24	140
+pushing	VBG	O	25	140
+the	DT	B-NP	26	140
+annual	JJ	I-NP	27	140
+rate	NN	I-NP	28	140
+of	IN	B-PP	29	140
+inflation	NN	B-NP	30	140
+to	IN	B-PP	31	140
+6.8	CD	B-NP	32	140
+%	NN	I-NP	33	140
+COMMA	COMMA	O	34	140
+the	DT	B-NP	35	140
+National	NNP	B-NP	36	140
+Institute	NNP	I-NP	37	140
+of	IN	B-PP	38	140
+Statistics	NNP	B-NP	39	140
+said	VBD	O	40	140
+Friday	NNP	B-NP	41	140
+.	.	O	42	140
+
+Prices	NNS	B-NP	0	141	ARG1
+have	VBP	O	1	141
+risen	VBN	O	2	141	SUPPORT
+5.9	CD	B-NP	3	141
+%	NN	I-NP	4	141	PRED	PARTITIVE-QUANT
+in	IN	B-PP	5	141
+the	DT	B-NP	6	141
+first	JJ	I-NP	7	141
+nine	CD	I-NP	8	141
+months	NNS	I-NP	9	141
+of	IN	B-PP	10	141
+the	DT	B-NP	11	141
+year	NN	I-NP	12	141
+COMMA	COMMA	O	13	141
+outstripping	VBG	O	14	141
+both	DT	B-NP	15	141
+the	DT	O	16	141
+initial	JJ	O	17	141
+3	CD	B-NP	18	141
+%	NN	I-NP	19	141
+inflation	NN	B-NP	20	141
+goal	NN	I-NP	21	141
+set	VBN	O	22	141
+by	IN	B-PP	23	141
+the	DT	B-NP	24	141
+government	NN	I-NP	25	141
+of	IN	B-PP	26	141
+Socialist	NNP	B-NP	27	141
+Prime	NNP	I-NP	28	141
+Minister	NNP	I-NP	29	141
+Felipe	NNP	I-NP	30	141
+Gonzalez	NNP	I-NP	31	141
+and	CC	O	32	141
+the	DT	B-NP	33	141
+second	JJ	I-NP	34	141
+COMMA	COMMA	I-NP	35	141
+revised	VBN	O	36	141
+goal	NN	B-NP	37	141
+of	IN	B-PP	38	141
+5.8	CD	B-NP	39	141
+%	NN	I-NP	40	141
+.	.	O	41	141
+
+Japan	NNP	B-NP	0	143
+'s	POS	B-NP	1	143
+wholesale	JJ	I-NP	2	143
+prices	NNS	I-NP	3	143	ARG1
+in	IN	B-PP	4	143
+September	NNP	B-NP	5	143
+rose	VBD	O	6	143	SUPPORT
+3.3	CD	B-NP	7	143
+%	NN	I-NP	8	143	PRED	PARTITIVE-QUANT
+from	IN	B-PP	9	143
+a	DT	B-NP	10	143
+year	NN	I-NP	11	143
+earlier	RBR	B-ADVP	12	143
+and	CC	O	13	143
+were	VBD	O	14	143
+up	IN	B-PP	15	143
+0.4	CD	B-NP	16	143
+%	NN	I-NP	17	143
+from	IN	B-PP	18	143
+the	DT	B-NP	19	143
+previous	JJ	I-NP	20	143
+month	NN	I-NP	21	143
+COMMA	COMMA	O	22	143
+the	DT	B-NP	23	143
+Bank	NNP	I-NP	24	143
+of	IN	B-PP	25	143
+Japan	NNP	B-NP	26	143
+announced	VBD	O	27	143
+Friday	NNP	B-NP	28	143
+.	.	O	29	143
+
+``	``	O	0	147
+I	PRP	B-NP	1	147
+'d	MD	O	2	147
+be	VB	O	3	147
+disappointed	JJ	B-ADJP	4	147
+if	IN	O	5	147
+the	DT	B-NP	6	147
+company	NN	I-NP	7	147	ARG1
+grew	VBD	O	8	147	SUPPORT
+by	IN	B-PP	9	147	SUPPORT
+less	RBR	B-ADVP	10	147
+than	IN	B-NP	11	147
+20	CD	I-NP	12	147
+%	NN	I-NP	13	147	PRED	PARTITIVE-QUANT
+next	JJ	B-NP	14	147
+year	NN	I-NP	15	147
+COMMA	COMMA	O	16	147
+''	''	O	17	147
+said	VBD	O	18	147
+John	NNP	B-NP	19	147
+Levinson	NNP	I-NP	20	147
+COMMA	COMMA	O	21	147
+an	DT	B-NP	22	147
+analyst	NN	I-NP	23	147
+at	IN	B-PP	24	147
+Goldman	NNP	B-NP	25	147
+COMMA	COMMA	O	26	147
+Sachs	NNP	B-NP	27	147
+&	NNP	I-NP	28	147
+Co	NNP	I-NP	29	147
+.	.	O	30	147
+
+The	DT	B-NP	0	148
+consensus	NN	I-NP	1	148
+among	IN	B-PP	2	148
+economists	NNS	B-NP	3	148
+is	VBZ	O	4	148
+that	IN	B-SBAR	5	148
+it	PRP	B-NP	6	148	ARG1
+grew	VBD	O	7	148	SUPPORT
+a	DT	O	8	148
+much	RB	B-ADVP	9	148
+more	RBR	B-ADVP	10	148
+sluggish	JJ	B-NP	11	148
+2.3	CD	I-NP	12	148
+%	NN	I-NP	13	148	PRED	PARTITIVE-QUANT
+in	IN	B-PP	14	148
+the	DT	B-NP	15	148
+third	JJ	I-NP	16	148
+quarter	NN	I-NP	17	148
+of	IN	B-PP	18	148
+1989	CD	B-NP	19	148
+COMMA	COMMA	O	20	148
+which	WDT	B-NP	21	148
+ended	VBD	O	22	148
+two	CD	B-NP	23	148
+weeks	NNS	I-NP	24	148
+ago	RB	B-ADVP	25	148
+.	.	O	26	148
+
+A	DT	B-NP	0	156
+group	NN	I-NP	1	156
+of	IN	B-PP	2	156
+Arby	NNP	B-NP	3	156
+'s	POS	B-NP	4	156
+franchisees	NNS	I-NP	5	156
+said	VBD	O	6	156
+they	PRP	B-NP	7	156	ARG1
+formed	VBD	O	8	156	SUPPORT
+an	DT	B-NP	9	156
+association	NN	I-NP	10	156	PRED	GROUP
+to	TO	O	11	156
+oppose	VB	O	12	156
+Miami	NNP	B-NP	13	156
+Beach	NNP	I-NP	14	156
+financier	NN	B-NP	15	156
+Victor	NNP	B-NP	16	156
+Posner	NNP	I-NP	17	156
+'s	POS	B-NP	18	156
+control	NN	I-NP	19	156
+of	IN	B-PP	20	156
+the	DT	B-NP	21	156
+restaurant	NN	I-NP	22	156
+chain	NN	I-NP	23	156
+.	.	O	24	156
+
+By	IN	B-PP	0	177
+next	JJ	B-NP	1	177
+May	NNP	B-NP	2	177
+31	CD	I-NP	3	177
+COMMA	COMMA	O	4	177
+stocks	NNS	B-NP	5	177	ARG1
+of	IN	B-PP	6	177
+U.S.	NNP	B-NP	7	177
+wheat	NN	I-NP	8	177
+to	TO	O	9	177
+be	VB	O	10	177
+carried	VBN	O	11	177
+over	RP	B-ADVP	12	177
+into	IN	B-PP	13	177
+the	DT	B-NP	14	177
+next	JJ	I-NP	15	177
+season	NN	I-NP	16	177
+--	:	O	17	177
+before	IN	O	18	177
+the	DT	B-NP	19	177
+winter	NN	I-NP	20	177
+wheat	NN	I-NP	21	177
+now	RB	B-ADVP	22	177
+being	VBG	O	23	177
+planted	VBN	O	24	177
+is	VBZ	O	25	177
+harvested	VBN	O	26	177
+--	:	O	27	177
+are	VBP	O	28	177
+projected	VBN	O	29	177
+to	TO	O	30	177
+drop	VB	O	31	177	SUPPORT
+to	IN	B-PP	32	177	SUPPORT
+443	CD	B-NP	33	177
+million	CD	I-NP	34	177
+bushels	NNS	B-NP	35	177	PRED	PARTITIVE-QUANT
+.	.	O	36	177
+
+The	DT	B-NP	0	204
+consortium	NN	I-NP	1	204	PRED	GROUP
+was	VBD	O	2	204
+put	VBN	O	3	204	SUPPORT
+together	RB	B-ADVP	4	204
+by	IN	B-PP	5	204	ARG2
+Hoare	NNP	B-NP	6	204
+Govett	NNP	I-NP	7	204
+COMMA	COMMA	O	8	204
+the	DT	B-NP	9	204
+London-based	VBN	O	10	204
+investment	NN	B-NP	11	204
+banking	NN	I-NP	12	204
+company	NN	I-NP	13	204
+that	WDT	B-NP	14	204
+is	VBZ	O	15	204
+a	DT	B-NP	16	204
+subsidiary	NN	I-NP	17	204
+of	IN	B-PP	18	204
+Security	NNP	B-NP	19	204
+Pacific	NNP	I-NP	20	204
+Corp	NNP	I-NP	21	204
+.	.	O	22	204
+
+Brazilian	JJ	B-NP	0	212
+juice	NN	I-NP	1	212
+COMMA	COMMA	O	2	212
+after	IN	B-PP	3	212
+a	DT	B-NP	4	212
+delay	NN	I-NP	5	212
+caused	VBN	O	6	212
+by	IN	B-PP	7	212
+drought	NN	B-NP	8	212
+at	IN	B-PP	9	212
+the	DT	B-NP	10	212
+start	NN	I-NP	11	212
+of	IN	B-PP	12	212
+its	PRP$	B-NP	13	212	ARG0
+crop	NN	I-NP	14	212	PRED	PARTITIVE-QUANT/NOMLIKE
+season	NN	I-NP	15	212	SUPPORT
+COMMA	COMMA	O	16	212
+is	VBZ	O	17	212
+beginning	VBG	O	18	212
+to	TO	O	19	212
+arrive	VB	O	20	212
+in	IN	B-PP	21	212
+the	DT	B-NP	22	212
+U.S.	NNP	I-NP	23	212
+in	IN	B-PP	24	212
+large	JJ	B-NP	25	212
+quantities	NNS	I-NP	26	212
+.	.	O	27	212
+
+China	NNP	B-NP	0	226
+'s	POS	B-NP	1	226
+Communist	JJ	I-NP	2	226
+leadership	NN	I-NP	3	226
+voted	VBD	O	4	226
+to	TO	O	5	226
+purge	VB	O	6	226	SUPPORT
+the	DT	B-NP	7	226
+party	NN	I-NP	8	226	ARG2
+of	IN	B-PP	9	226	SUPPORT
+``	``	O	10	226
+hostile	JJ	B-NP	11	226	ARG1
+and	CC	I-NP	12	226
+anti-party	JJ	I-NP	13	226	ARG1
+elements	NNS	I-NP	14	226	PRED	GROUP
+''	''	O	15	226
+and	CC	O	16	226
+wealthy	JJ	B-NP	17	226
+private	JJ	I-NP	18	226
+businessmen	NNS	I-NP	19	226
+COMMA	COMMA	O	20	226
+whom	WP	B-NP	21	226
+they	PRP	B-NP	22	226
+called	VBD	O	23	226
+exploiters	NNS	B-NP	24	226
+.	.	O	25	226
+
+The	DT	B-NP	0	244
+group	NN	I-NP	1	244	PRED	GROUP/PARTITIVE-QUANT/PARTITIVE-PART
+is	VBZ	O	2	244
+led	VBN	O	3	244	SUPPORT
+by	IN	B-PP	4	244	ARG2
+Jay	NNP	B-NP	5	244
+Shidler	NNP	I-NP	6	244
+COMMA	COMMA	O	7	244
+chief	JJ	B-NP	8	244
+executive	JJ	I-NP	9	244
+officer	NN	I-NP	10	244
+of	IN	B-PP	11	244
+Shidler	NNP	B-NP	12	244
+Investment	NNP	I-NP	13	244
+Corp.	NNP	I-NP	14	244
+in	IN	B-PP	15	244
+Honolulu	NNP	B-NP	16	244
+COMMA	COMMA	O	17	244
+and	CC	O	18	244
+A.	NNP	B-NP	19	244
+Boyd	NNP	I-NP	20	244
+Simpson	NNP	I-NP	21	244
+COMMA	COMMA	O	22	244
+chief	JJ	B-NP	23	244
+executive	NN	I-NP	24	244
+of	IN	B-PP	25	244
+the	DT	B-NP	26	244
+Atlanta-based	VBN	O	27	244
+Simpson	NNP	B-NP	28	244
+Organization	NNP	I-NP	29	244
+Inc	NNP	I-NP	30	244
+.	.	O	31	244
+
+But	CC	B-CONJP	0	280
+its	PRP$	B-NP	1	280
+competitors	NNS	I-NP	2	280	ARG0
+--	:	O	3	280
+including	VBG	O	4	280
+Dow	NNP	B-NP	5	280
+Chemical	NNP	I-NP	6	280
+Co.	NNP	I-NP	7	280
+COMMA	COMMA	O	8	280
+Union	NNP	B-NP	9	280
+Carbide	NNP	I-NP	10	280
+Corp.	NNP	I-NP	11	280
+and	CC	O	12	280
+several	DT	B-NP	13	280
+oil	NN	I-NP	14	280
+giants	NNS	I-NP	15	280
+--	:	O	16	280
+have	VBP	O	17	280	SUPPORT
+much	RB	B-ADVP	18	280
+broader	JJR	B-NP	19	280
+business	NN	I-NP	20	280
+interests	NNS	I-NP	21	280	PRED	SHARE
+and	CC	B-CONJP	22	280
+so	RB	B-ADVP	23	280
+are	VBP	O	24	280
+better	RBR	B-ADVP	25	280
+cushioned	VBN	O	26	280
+against	IN	B-PP	27	280
+price	NN	B-NP	28	280
+swings	NNS	I-NP	29	280
+.	.	O	30	280
+
+The	DT	B-NP	0	300
+company	NN	I-NP	1	300
+grew	VBD	O	2	300
+modestly	RB	B-ADVP	3	300
+until	IN	B-PP	4	300
+1986	CD	B-NP	5	300
+COMMA	COMMA	O	6	300
+when	IN	B-ADVP	7	300
+a	DT	B-NP	8	300
+majority	NN	I-NP	9	300	PRED	PARTITIVE-QUANT
+position	NN	I-NP	10	300	SUPPORT
+in	IN	B-PP	11	300
+Hooker	NNP	B-NP	12	300	ARG1
+Corp.	NNP	I-NP	13	300
+was	VBD	O	14	300
+acquired	VBN	O	15	300
+by	IN	B-PP	16	300
+Australian	JJ	B-NP	17	300
+developer	NN	I-NP	18	300
+George	NNP	B-NP	19	300
+Herscu	NNP	I-NP	20	300
+COMMA	COMMA	O	21	300
+currently	RB	B-ADVP	22	300
+Hooker	NNP	B-NP	23	300
+'s	POS	B-NP	24	300
+chairman	NN	I-NP	25	300
+.	.	O	26	300
+
+Mr.	NNP	B-NP	0	301
+Herscu	NNP	I-NP	1	301
+proceeded	VBD	O	2	301
+to	TO	O	3	301
+launch	VB	O	4	301
+an	DT	O	5	301
+ambitious	JJ	O	6	301
+COMMA	COMMA	O	7	301
+but	CC	O	8	301
+ill-fated	JJ	O	9	301
+COMMA	COMMA	O	10	301
+$	$	O	11	301
+1	CD	B-NP	12	301
+billion	CD	I-NP	13	301
+acquisition	NN	B-NP	14	301
+binge	NN	I-NP	15	301
+that	WDT	B-NP	16	301
+included	VBD	O	17	301
+Bonwit	NNP	B-NP	18	301
+Teller	NNP	I-NP	19	301
+and	CC	O	20	301
+B.	NNP	B-NP	21	301
+Altman	NNP	I-NP	22	301
+&	NNP	I-NP	23	301
+Co.	NNP	I-NP	24	301
+COMMA	COMMA	O	25	301
+as	IN	B-CONJP	26	301
+well	UH	I-CONJP	27	301
+as	IN	I-CONJP	28	301
+majority	NN	B-NP	29	301	PRED	PARTITIVE-QUANT
+positions	NNS	I-NP	30	301	SUPPORT
+in	IN	B-PP	31	301
+Merksamer	NNP	B-NP	32	301
+Jewelers	NNP	I-NP	33	301	ARG1
+COMMA	COMMA	O	34	301
+a	DT	B-NP	35	301
+Sacramento	NNP	I-NP	36	301
+chain	NN	I-NP	37	301
+;	:	O	38	301
+Sakowitz	NNP	B-NP	39	301	ARG1
+Inc.	NNP	I-NP	40	301
+COMMA	COMMA	O	41	301
+the	DT	B-NP	42	301
+Houston-based	VBN	O	43	301
+retailer	NN	B-NP	44	301
+COMMA	COMMA	O	45	301
+and	CC	O	46	301
+Parisian	NNP	B-NP	47	301	ARG1
+Inc.	NNP	I-NP	48	301
+COMMA	COMMA	O	49	301
+the	DT	B-NP	50	301
+Southeast	NNP	I-NP	51	301
+department-store	NN	I-NP	52	301
+chain	NN	I-NP	53	301
+.	.	O	54	301
+
+Robert	NNP	B-NP	0	309
+G.	NNP	I-NP	1	309
+Walden	NNP	I-NP	2	309
+COMMA	COMMA	O	3	309
+62	CD	B-NP	4	309
+years	NNS	I-NP	5	309
+old	JJ	B-ADJP	6	309
+COMMA	COMMA	O	7	309
+was	VBD	O	8	309
+elected	VBN	O	9	309
+a	DT	B-NP	10	309
+director	NN	I-NP	11	309
+of	IN	B-PP	12	309
+this	DT	B-NP	13	309
+provider	NN	I-NP	14	309
+of	IN	B-PP	15	309
+advanced	JJ	B-NP	16	309
+technology	NN	I-NP	17	309
+systems	NNS	I-NP	18	309
+and	CC	I-NP	19	309
+services	NNS	I-NP	20	309
+COMMA	COMMA	O	21	309
+increasing	VBG	O	22	309	SUPPORT
+the	DT	B-NP	23	309
+board	NN	I-NP	24	309	ARG1
+to	IN	B-PP	25	309	SUPPORT
+eight	CD	B-NP	26	309
+members	NNS	I-NP	27	309	PRED	PARTITIVE-PART
+.	.	O	28	309
+
+City	NNP	B-NP	0	344
+Federal	NNP	I-NP	1	344	ARG2
+operates	VBZ	O	2	344	SUPPORT
+105	CD	B-NP	3	344
+banking	NN	I-NP	4	344	ARG1
+offices	NNS	I-NP	5	344	PRED	PARTITIVE-PART/GROUP
+in	IN	B-PP	6	344
+New	NNP	B-NP	7	344
+Jersey	NNP	I-NP	8	344	ARGM
+and	CC	O	9	344
+Florida	NNP	B-NP	10	344	ARGM
+.	.	O	11	344
+
+Profit	NN	B-NP	0	380
+climbed	VBD	O	1	380
+even	RB	O	2	380
+though	IN	O	3	380
+Merck	NNP	B-NP	4	380
+'s	POS	B-NP	5	380
+sales	NNS	I-NP	6	380	ARG1
+were	VBD	O	7	380
+reduced	VBN	O	8	380	SUPPORT
+by	IN	B-PP	9	380	SUPPORT
+``	``	O	10	380
+one	CD	B-NP	11	380
+to	TO	I-NP	12	380
+three	CD	I-NP	13	380
+percentage	NN	I-NP	14	380	PRED	PARTITIVE-QUANT
+points	NNS	I-NP	15	380	SUPPORT
+''	''	O	16	380
+as	IN	B-SBAR	17	380
+a	DT	B-NP	18	380
+result	NN	I-NP	19	380
+of	IN	B-PP	20	380
+the	DT	B-NP	21	380
+strong	JJ	I-NP	22	380
+dollar	NN	I-NP	23	380
+COMMA	COMMA	O	24	380
+Mr.	NNP	B-NP	25	380
+Sweig	NNP	I-NP	26	380
+said	VBD	O	27	380
+.	.	O	28	380
+
+The	DT	B-NP	0	388
+company	NN	I-NP	1	388
+grew	VBD	O	2	388
+modestly	RB	B-ADVP	3	388
+until	IN	B-PP	4	388
+1986	CD	B-NP	5	388
+COMMA	COMMA	O	6	388
+when	IN	B-ADVP	7	388
+a	DT	B-NP	8	388
+majority	NN	I-NP	9	388	ARG2
+position	NN	I-NP	10	388	PRED	SHARE
+in	IN	B-PP	11	388
+Hooker	NNP	B-NP	12	388	ARG1
+Corp.	NNP	I-NP	13	388
+was	VBD	O	14	388
+acquired	VBN	O	15	388	SUPPORT
+by	IN	B-PP	16	388	ARG0
+Australian	JJ	B-NP	17	388
+developer	NN	I-NP	18	388
+George	NNP	B-NP	19	388
+Herscu	NNP	I-NP	20	388
+COMMA	COMMA	O	21	388
+currently	RB	B-ADVP	22	388
+Hooker	NNP	B-NP	23	388
+'s	POS	B-NP	24	388
+chairman	NN	I-NP	25	388
+.	.	O	26	388
+
+Mario	NNP	B-NP	0	390
+Gabelli	NNP	I-NP	1	390	ARG0
+COMMA	COMMA	O	2	390
+for	IN	O	3	390
+instance	NN	B-NP	4	390
+COMMA	COMMA	O	5	390
+holds	VBZ	O	6	390	SUPPORT
+cash	NN	B-NP	7	390
+positions	NNS	I-NP	8	390	PRED	SHARE
+well	RB	B-ADVP	9	390
+above	IN	B-PP	10	390
+20	CD	B-NP	11	390
+%	NN	I-NP	12	390	ARG2
+in	IN	B-PP	13	390
+several	DT	B-NP	14	390	ARG1
+of	IN	B-PP	15	390
+his	PRP$	B-NP	16	390
+funds	NNS	I-NP	17	390
+.	.	O	18	390
+
+As	IN	O	0	425
+the	DT	B-NP	1	425
+1992	CD	I-NP	2	425
+economic	JJ	I-NP	3	425
+integration	NN	I-NP	4	425
+approaches	VBZ	O	5	425
+COMMA	COMMA	O	6	425
+Europe	NNP	B-NP	7	425
+'s	POS	B-NP	8	425
+cultural	JJ	I-NP	9	425
+curators	NNS	I-NP	10	425
+have	VBP	O	11	425
+taken	VBN	O	12	425
+to	IN	B-PP	13	425
+the	DT	B-NP	14	425
+ramparts	NNS	I-NP	15	425
+against	IN	B-PP	16	425
+American	JJ	B-NP	17	425
+``	``	I-NP	18	425
+cultural	JJ	I-NP	19	425
+imperialism	NN	I-NP	20	425
+COMMA	COMMA	O	21	425
+''	''	O	22	425
+threatening	VBG	O	23	425
+to	TO	O	24	425
+impose	VB	O	25	425	SUPPORT
+quotas	NNS	B-NP	26	425	PRED	SHARE
+against	IN	B-PP	27	425
+such	DT	B-NP	28	425
+pop	JJ	I-NP	29	425
+invaders	NNS	I-NP	30	425	ARG0
+as	IN	B-SBAR	31	425
+``	``	O	32	425
+Dallas	NNP	B-NP	33	425
+COMMA	COMMA	O	34	425
+''	''	O	35	425
+``	``	O	36	425
+Miami	NNP	B-NP	37	425
+Vice	NN	B-NP	38	425
+''	''	O	39	425
+and	CC	O	40	425
+``	``	O	41	425
+L.A.	NNP	B-NP	42	425
+Law	NN	B-NP	43	425
+.	.	O	44	425
+''	''	O	45	425
+
+In	IN	B-PP	0	439
+the	DT	B-NP	1	439
+U.S.	NNP	I-NP	2	439
+polyethylene	NN	I-NP	3	439
+market	NN	I-NP	4	439
+COMMA	COMMA	O	5	439
+Quantum	NNP	B-NP	6	439	ARG0
+has	VBZ	O	7	439
+claimed	VBN	O	8	439	SUPPORT
+the	DT	B-NP	9	439
+largest	JJS	I-NP	10	439	ARG2
+share	NN	I-NP	11	439	PRED	NOM/SHARE/PARTITIVE-QUANT
+COMMA	COMMA	O	12	439
+about	RB	B-ADVP	13	439
+20	CD	B-NP	14	439
+%	NN	I-NP	15	439
+.	.	O	16	439
+
+Meanwhile	RB	O	0	443
+COMMA	COMMA	O	1	443
+Brazil	NNP	B-NP	2	443
+is	VBZ	O	3	443
+expected	VBN	O	4	443
+to	TO	O	5	443
+increase	VB	O	6	443
+its	PRP$	B-NP	7	443
+allowance	NN	I-NP	8	443
+from	IN	B-PP	9	443
+the	DT	O	10	443
+1.43	CD	B-NP	11	443
+%	NN	I-NP	12	443	ARG2
+share	NN	B-NP	13	443	PRED	NOM/SHARE/PARTITIVE-QUANT
+it	PRP	B-NP	14	443	ARG0
+has	VBZ	O	15	443
+had	VBN	O	16	443	SUPPORT
+in	IN	B-PP	17	443
+recent	JJ	B-NP	18	443
+years	NNS	I-NP	19	443
+.	.	O	20	443
+
+Many	DT	B-NP	0	449
+Americans	NNPS	I-NP	1	449
+have	VBP	O	2	449
+interpreted	VBN	O	3	449
+a	DT	B-NP	4	449
+1986	CD	I-NP	5	449
+agreement	NN	I-NP	6	449
+as	IN	B-SBAR	7	449
+assuring	VBG	O	8	449	SUPPORT
+U.S.	NNP	B-NP	9	449
+companies	NNS	I-NP	10	449	ARG0
+a	DT	O	11	449
+20	CD	B-NP	12	449
+%	NN	I-NP	13	449	ARG2
+share	NN	B-NP	14	449	PRED	NOM/SHARE/PARTITIVE-QUANT
+by	IN	B-PP	15	449
+1991	CD	B-NP	16	449
+COMMA	COMMA	O	17	449
+but	CC	B-CONJP	18	449
+the	DT	B-NP	19	449
+Japanese	NNPS	I-NP	20	449
+have	VBP	O	21	449
+denied	VBN	O	22	449
+making	VBG	O	23	449
+any	DT	B-NP	24	449
+such	DT	I-NP	25	449
+promise	NN	I-NP	26	449
+.	.	O	27	449
+
+Weatherford	NNP	B-NP	0	459	ARG1
+currently	RB	B-ADVP	1	459
+has	VBZ	O	2	459	SUPPORT
+approximately	RB	B-ADVP	3	459
+11.1	CD	B-NP	4	459
+million	CD	I-NP	5	459
+common	JJ	B-ADJP	6	459	ARG3
+shares	NNS	B-NP	7	459	PRED	NOM/SHARE/PARTITIVE-QUANT
+outstanding	JJ	B-ADJP	8	459
+.	.	O	9	459
+
+Speaking	VBG	O	0	497
+through	IN	B-PP	1	497
+its	PRP$	B-NP	2	497
+Dutch	JJ	I-NP	3	497
+lawyers	NNS	I-NP	4	497
+COMMA	COMMA	O	5	497
+ASKO	NNP	B-NP	6	497
+also	RB	O	7	497
+disclosed	VBD	O	8	497
+it	PRP	B-NP	9	497	ARG0
+holds	VBZ	O	10	497	SUPPORT
+a	DT	O	11	497
+15	CD	B-NP	12	497
+%	NN	I-NP	13	497	ARG2
+stake	NN	B-NP	14	497	PRED	SHARE
+in	IN	B-PP	15	497
+Ahold	NNP	B-NP	16	497	ARG1
+.	.	O	17	497
+
+It	PRP	B-NP	0	498
+was	VBD	O	1	498
+previously	RB	O	2	498
+thought	VBN	O	3	498
+ASKO	NNP	B-NP	4	498	ARG0
+held	VBD	O	5	498	SUPPORT
+a	DT	O	6	498
+13.6	CD	B-NP	7	498
+%	NN	I-NP	8	498	ARG2
+stake	NN	B-NP	9	498	PRED	SHARE
+that	WDT	B-NP	10	498
+was	VBD	O	11	498
+accumulated	VBN	O	12	498
+since	IN	B-PP	13	498
+July	NNP	B-NP	14	498
+.	.	O	15	498
+
+Last	JJ	B-NP	0	499
+month	NN	I-NP	1	499
+COMMA	COMMA	O	2	499
+Transportation	NNP	B-NP	3	499
+Secretary	NNP	I-NP	4	499
+Sam	NNP	I-NP	5	499
+Skinner	NNP	I-NP	6	499
+forced	VBD	O	7	499
+Northwest	NNP	B-NP	8	499
+Airlines	NNP	I-NP	9	499
+to	TO	O	10	499
+reduce	VB	O	11	499
+a	DT	B-NP	12	499
+stake	NN	I-NP	13	499	PRED	SHARE
+held	VBN	O	14	499	SUPPORT
+by	IN	B-PP	15	499	ARG0
+KLM	NNP	B-NP	16	499
+Royal	NNP	I-NP	17	499
+Dutch	NNP	I-NP	18	499
+Airlines	NNP	I-NP	19	499
+.	.	O	20	499
+
+Though	IN	O	0	501
+Dow	NNP	B-NP	1	501
+has	VBZ	O	2	501
+aggressively	RB	B-ADVP	3	501
+diversified	VBN	O	4	501
+into	IN	B-PP	5	501
+specialty	NN	B-NP	6	501
+chemicals	NNS	I-NP	7	501
+and	CC	O	8	501
+pharmaceuticals	NNS	B-NP	9	501
+COMMA	COMMA	O	10	501
+the	DT	B-NP	11	501
+company	NN	I-NP	12	501	ARG0
+still	RB	B-ADVP	13	501
+has	VBZ	O	14	501	SUPPORT
+a	DT	B-NP	15	501
+big	JJ	I-NP	16	501	ARG2
+stake	NN	I-NP	17	501	PRED	SHARE
+in	IN	O	18	501
+polyethylene	NN	B-NP	19	501	ARG1
+COMMA	COMMA	O	20	501
+which	WDT	B-NP	21	501
+is	VBZ	O	22	501
+used	VBN	O	23	501
+in	IN	B-PP	24	501
+packaging	NN	B-NP	25	501
+and	CC	I-NP	26	501
+housewares	NNS	I-NP	27	501
+.	.	O	28	501
+
+Though	NNP	O	0	508
+Boeing	NNP	B-NP	1	508	ARG1
+'s	POS	B-NP	2	508
+stock	NN	I-NP	3	508	PRED	SHARE
+price	NN	I-NP	4	508	SUPPORT
+was	VBD	O	5	508
+battered	VBN	O	6	508
+along	IN	B-PP	7	508
+with	IN	B-PP	8	508
+the	DT	B-NP	9	508
+rest	NN	I-NP	10	508
+of	IN	B-PP	11	508
+the	DT	B-NP	12	508
+market	NN	I-NP	13	508
+Friday	NNP	B-NP	14	508
+COMMA	COMMA	O	15	508
+it	PRP	B-NP	16	508
+actually	RB	B-ADVP	17	508
+has	VBZ	O	18	508
+risen	VBN	O	19	508
+over	IN	B-PP	20	508
+the	DT	B-NP	21	508
+last	JJ	I-NP	22	508
+two	CD	I-NP	23	508
+weeks	NNS	I-NP	24	508
+on	IN	B-PP	25	508
+the	DT	B-NP	26	508
+strength	NN	I-NP	27	508
+of	IN	B-PP	28	508
+new	JJ	B-NP	29	508
+orders	NNS	I-NP	30	508
+.	.	O	31	508
+
+Quantum	NNP	B-NP	0	511
+described	VBD	O	1	511
+the	DT	B-NP	2	511
+payout	NN	I-NP	3	511
+at	IN	B-PP	4	511
+the	DT	B-NP	5	511
+time	NN	I-NP	6	511
+as	IN	O	7	511
+a	DT	B-NP	8	511
+way	NN	I-NP	9	511
+for	IN	O	10	511
+it	PRP	B-NP	11	511
+to	TO	O	12	511
+share	VB	O	13	511
+the	DT	B-NP	14	511
+bonanza	NN	I-NP	15	511
+with	IN	B-PP	16	511
+its	PRP$	B-NP	17	511
+holders	NNS	I-NP	18	511
+COMMA	COMMA	O	19	511
+because	IN	O	20	511
+its	PRP$	B-NP	21	511	ARG1
+stock	NN	I-NP	22	511	PRED	SHARE
+price	NN	I-NP	23	511	SUPPORT
+was	VBD	O	24	511
+n't	RB	B-ADVP	25	511
+reflecting	VBG	O	26	511
+the	DT	B-NP	27	511
+huge	JJ	I-NP	28	511
+profit	NN	I-NP	29	511
+increases	NNS	I-NP	30	511
+.	.	O	31	511
+
+CenTrust	NNP	B-NP	0	517
+Savings	NNP	I-NP	1	517
+Bank	NNP	I-NP	2	517
+said	VBD	O	3	517
+federal	JJ	B-NP	4	517
+thrift	NN	I-NP	5	517
+regulators	NNS	I-NP	6	517
+ordered	VBD	O	7	517
+it	PRP	B-NP	8	517
+to	TO	O	9	517
+suspend	VB	O	10	517
+dividend	NN	B-NP	11	517
+payments	NNS	I-NP	12	517
+on	IN	B-PP	13	517
+its	PRP$	B-NP	14	517	ARG1
+two	CD	I-NP	15	517
+classes	NNS	I-NP	16	517	SUPPORT
+of	IN	B-PP	17	517	SUPPORT
+preferred	VBN	O	18	517
+stock	NN	B-NP	19	517	PRED	SHARE
+COMMA	COMMA	O	20	517
+indicating	VBG	O	21	517
+that	IN	B-SBAR	22	517
+regulators	NNS	B-NP	23	517
+'	POS	B-NP	24	517
+concerns	NNS	I-NP	25	517
+about	IN	B-PP	26	517
+the	DT	B-NP	27	517
+troubled	VBN	O	28	517
+institution	NN	B-NP	29	517
+have	VBP	O	30	517
+heightened	VBN	O	31	517
+.	.	O	32	517
+
+--	:	O	0	520
+Close	VB	O	1	520
+a	DT	B-NP	2	520
+loophole	NN	I-NP	3	520
+regarding	VBG	O	4	520
+employee	NN	B-NP	5	520	ARG0
+stock	NN	I-NP	6	520	PRED	SHARE
+ownership	NN	I-NP	7	520	SUPPORT
+plans	NNS	I-NP	8	520	SUPPORT
+COMMA	COMMA	O	9	520
+effective	JJ	B-ADJP	10	520
+June	NNP	B-NP	11	520
+6	CD	I-NP	12	520
+COMMA	COMMA	I-NP	13	520
+1989	CD	I-NP	14	520
+COMMA	COMMA	O	15	520
+that	WDT	B-NP	16	520
+has	VBZ	O	17	520
+been	VBN	O	18	520
+exploited	VBN	O	19	520
+by	IN	B-PP	20	520
+investment	NN	B-NP	21	520
+bankers	NNS	I-NP	22	520
+in	IN	B-PP	23	520
+corporate	JJ	B-NP	24	520
+takeovers	NNS	I-NP	25	520
+.	.	O	26	520
+
+The	DT	B-NP	0	521
+measure	NN	I-NP	1	521
+repeals	VBZ	O	2	521
+a	DT	O	3	521
+50	CD	B-NP	4	521
+%	NN	I-NP	5	521
+exclusion	NN	B-NP	6	521
+given	VBN	O	7	521
+to	IN	B-PP	8	521
+banks	NNS	B-NP	9	521
+on	IN	B-PP	10	521
+the	DT	B-NP	11	521
+interest	NN	I-NP	12	521
+from	IN	B-PP	13	521
+loans	NNS	B-NP	14	521
+used	VBN	O	15	521
+to	TO	O	16	521
+acquire	VB	O	17	521
+securities	NNS	B-NP	18	521
+for	IN	B-PP	19	521
+an	DT	B-NP	20	521
+ESOP	NNP	I-NP	21	521
+COMMA	COMMA	O	22	521
+if	IN	O	23	521
+the	DT	B-NP	24	521
+ESOP	NNP	I-NP	25	521	ARG0
+owns	VBZ	O	26	521	SUPPORT
+less	RBR	B-ADVP	27	521
+than	IN	B-NP	28	521
+30	CD	I-NP	29	521
+%	NN	I-NP	30	521	SUPPORT
+of	IN	B-PP	31	521	SUPPORT
+the	DT	B-NP	32	521
+employer	NN	I-NP	33	521	ARG1
+'s	POS	B-NP	34	521
+stock	NN	I-NP	35	521	PRED	SHARE
+.	.	O	36	521
+
+The	DT	B-NP	0	522
+$	$	O	1	522
+56	CD	B-NP	2	522
+billion	CD	I-NP	3	522
+California	NNP	B-NP	4	522
+Public	NNP	I-NP	5	522
+Employees	NNP	I-NP	6	522
+Retirement	NNP	I-NP	7	522
+System	NNP	I-NP	8	522
+COMMA	COMMA	O	9	522
+for	IN	B-PP	10	522
+one	CD	B-NP	11	522
+COMMA	COMMA	O	12	522
+added	VBD	O	13	522
+$	$	O	14	522
+1	CD	B-NP	15	522
+billion	CD	I-NP	16	522
+to	IN	B-PP	17	522
+its	PRP$	B-NP	18	522	ARG0
+stock	NN	I-NP	19	522	PRED	SHARE
+portfolio	NN	I-NP	20	522	SUPPORT
+two	CD	B-NP	21	522
+years	NNS	I-NP	22	522
+ago	RB	B-ADVP	23	522
+.	.	O	24	522
+
+She	PRP	B-NP	0	523
+and	CC	O	1	523
+her	PRP$	B-NP	2	523
+husband	NN	I-NP	3	523
+pulled	VBD	O	4	523
+most	DT	B-NP	5	523
+of	IN	B-PP	6	523
+their	PRP$	B-NP	7	523
+investments	NNS	I-NP	8	523
+out	IN	B-PP	9	523
+of	IN	B-PP	10	523
+the	DT	B-NP	11	523
+market	NN	I-NP	12	523
+after	IN	B-PP	13	523
+the	DT	B-NP	14	523
+1987	CD	I-NP	15	523
+crash	NN	I-NP	16	523
+COMMA	COMMA	O	17	523
+although	IN	O	18	523
+she	PRP	B-NP	19	523	ARG0
+still	RB	B-ADVP	20	523
+owns	VBZ	O	21	523	SUPPORT
+some	DT	B-NP	22	523
+Texaco	NNP	I-NP	23	523	ARG1
+stock	NN	I-NP	24	523	PRED	SHARE
+.	.	O	25	523
+
+But	CC	B-CONJP	0	525
+COMMA	COMMA	O	1	525
+with	IN	B-PP	2	525
+profits	NNS	B-NP	3	525
+sagging	VBG	O	4	525
+on	IN	B-PP	5	525
+Wall	NNP	B-NP	6	525
+Street	NNP	I-NP	7	525
+since	IN	B-PP	8	525
+the	DT	B-NP	9	525
+crash	NN	I-NP	10	525
+COMMA	COMMA	O	11	525
+companies	NNS	B-NP	12	525	ARG0
+have	VBP	O	13	525
+kept	VBN	O	14	525	SUPPORT
+smaller	JJR	B-NP	15	525
+share	NN	I-NP	16	525	ARG1
+stockpiles	NNS	I-NP	17	525	PRED	NOM/PARTITIVE-QUANT
+on	IN	B-PP	18	525
+hand	NN	B-NP	19	525
+.	.	O	20	525
+
+Kaufman	NNP	B-NP	0	532
+&	NNP	I-NP	1	532
+Broad	NNP	I-NP	2	532
+Home	NNP	I-NP	3	532
+Corp.	NNP	I-NP	4	532
+said	VBD	O	5	532
+it	PRP	B-NP	6	532	ARG1
+formed	VBD	O	7	532	SUPPORT
+a	DT	O	8	532
+$	$	O	9	532
+53.4	CD	B-NP	10	532
+million	CD	I-NP	11	532
+limited	VBN	O	12	532
+partnership	NN	B-NP	13	532
+subsidiary	NN	I-NP	14	532	PRED	MERONYM/PARTITIVE-PART
+to	TO	O	15	532
+buy	VB	O	16	532
+land	NN	B-NP	17	532
+in	IN	B-PP	18	532
+California	NNP	B-NP	19	532
+suitable	JJ	B-ADJP	20	532
+for	IN	B-PP	21	532
+residential	JJ	B-NP	22	532
+development	NN	I-NP	23	532
+.	.	O	24	532
+
+In	IN	B-PP	0	549
+the	DT	B-NP	1	549
+recent	JJ	I-NP	2	549
+talks	NNS	I-NP	3	549
+COMMA	COMMA	O	4	549
+the	DT	B-NP	5	549
+EC	NNP	I-NP	6	549
+had	VBD	O	7	549
+its	PRP$	B-NP	8	549
+quota	NN	I-NP	9	549	ARG1
+increased	VBD	O	10	549	SUPPORT
+about	RB	B-ADVP	11	549
+300COMMA000	CD	B-NP	12	549
+tons	NNS	I-NP	13	549	PRED	PARTITIVE-QUANT
+COMMA	COMMA	O	14	549
+to	IN	B-PP	15	549
+7	CD	B-NP	16	549
+%	NN	I-NP	17	549
+of	IN	B-PP	18	549
+the	DT	B-NP	19	549
+U.S.	NNP	I-NP	20	549
+market	NN	I-NP	21	549
+from	IN	B-PP	22	549
+6.7	CD	B-NP	23	549
+%	NN	I-NP	24	549
+in	IN	B-PP	25	549
+1988	CD	B-NP	26	549
+.	.	O	27	549
+
+The	DT	B-NP	0	552
+company	NN	I-NP	1	552
+said	VBD	O	2	552
+normal	JJ	B-NP	3	552
+seasonal	JJ	I-NP	4	552
+softness	NN	I-NP	5	552
+and	CC	O	6	552
+lost	VBN	O	7	552
+orders	NNS	B-NP	8	552
+caused	VBN	O	9	552
+by	IN	B-PP	10	552
+prolonged	JJ	B-NP	11	552
+labor	NN	I-NP	12	552
+talks	NNS	I-NP	13	552
+reduced	VBD	O	14	552	SUPPORT
+shipments	NNS	B-NP	15	552	ARG1
+by	IN	B-PP	16	552
+200COMMA000	CD	B-NP	17	552
+tons	NNS	I-NP	18	552	PRED	PARTITIVE-QUANT
+in	IN	B-PP	19	552
+the	DT	B-NP	20	552
+latest	JJS	I-NP	21	552
+quarter	NN	I-NP	22	552
+COMMA	COMMA	O	23	552
+compared	VBN	O	24	552
+with	IN	B-PP	25	552
+the	DT	B-NP	26	552
+second	JJ	I-NP	27	552
+quarter	NN	I-NP	28	552
+.	.	O	29	552
+

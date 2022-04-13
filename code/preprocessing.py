@@ -1,6 +1,5 @@
 import argparse
 
-
 def getSupportSentences(filename):
     '''
     Gets only those sentences having a support from filename

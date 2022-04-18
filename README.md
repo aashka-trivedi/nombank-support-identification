@@ -16,7 +16,13 @@ Notes:
 
 ## Code
 
-- `get_features.py`is used to get features from the data files. Use flag `--test_features` to produce test features (without training labels), and the flag `--arguments_known` if the training should be done with complete information of predicates and all arguments.
+- `get_features.py`is used to get features from the data files. Run as `python3 get_features --inputfile $INPUT_FILE [--distance_features][--test_features] [--arguments_known]`
+
+Flags:
+
+1. `--distance_features`: to produce features with distance-related features (Model 1)
+2. `--test_features`: to produce test features (without training labels)
+3. `--arguments_known` if the training should be done with complete information of predicates and all arguments
 
 ## Implementation Details
 

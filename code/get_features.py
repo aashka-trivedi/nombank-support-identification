@@ -24,7 +24,7 @@ def distanceFromArgument(argument_number, arg_token, token, update_flag, idx, st
     
     return features, feature_lines, update_flag
 
-def getFeatures(filename, testfeatures, arg_known):
+def getFeatures(filename, args):
     '''
     Reads the input to form the features
     '''
@@ -80,14 +80,14 @@ def getFeatures(filename, testfeatures, arg_known):
         elif len(components)==6:
             #Line contains the argument/predicate/support
             #No roles seen for test features
-            if testfeatures:
+            if args["test_features"]:
                  word, word_POS, word_BIO, token, _, role = components
             else:
                 word, word_POS, word_BIO, token, sent, role = components
                 # For the training, we need a label which is either "SUPPORT" or None 
         elif len(components) == 7:
             #Line contains predicate, and type of predicate
-            if testfeatures:
+            if args["test_features"]:
                  word, word_POS, word_BIO, token, _, role, _ = components
             else:
                 word, word_POS, word_BIO, token, sent, role, _ = components
@@ -111,7 +111,7 @@ def getFeatures(filename, testfeatures, arg_known):
         features["is_noun"]= False   
         #Here we asssume that the predicate is always known by the system       
         features["is_pred"] = False
-        if arg_known:
+        if args["arguments_known"]:
             features["is_arg0"] = False
             features["is_arg1"] = False
             features["is_arg2"] = False
@@ -128,7 +128,7 @@ def getFeatures(filename, testfeatures, arg_known):
         if role and role=="PRED":
             features["is_pred"] = True
             pred_token = int(token)
-        if role and arg_known:
+        if role and args["arguments_known"]:
             if role == "ARG0":
                 features["is_arg0"] = True
                 arg0_token = int(token)
@@ -145,36 +145,37 @@ def getFeatures(filename, testfeatures, arg_known):
                 features["is_arg4"] = True
                 arg4_token = int(token)
         
-        #Setting forward/backward distance from the predicate
-        if pred_token:
-            #Update the distance from predicate for words before it
-            if not update_prev_distance:
-                for i in range(idx-1, start_sentence_idx-1, -1):
-                    prev_features = feature_lines[i][1]
-                    feature_lines[i][1]["pred_backward_dist"] = pred_token - int(prev_features["position"])
-                #We only update the previous features when the current word is the predicate
-                features["pred_backward_dist"] = 0
-                update_prev_distance = True
+
+        if args["distance_features"]:
+            #Setting forward/backward distance from the predicate
+            if pred_token:
+                #Update the distance from predicate for words before it
+                if not update_prev_distance:
+                    for i in range(idx-1, start_sentence_idx-1, -1):
+                        prev_features = feature_lines[i][1]
+                        feature_lines[i][1]["pred_backward_dist"] = pred_token - int(prev_features["position"])
+                    #We only update the previous features when the current word is the predicate
+                    features["pred_backward_dist"] = 0
+                    update_prev_distance = True
+                else:
+                    features["pred_backward_dist"] = None
+            
+                #Set distance from predicate to words after it
+                features["pred_forward_distance"] = int(token) - pred_token
             else:
                 features["pred_backward_dist"] = None
-            
-            #Set distance from predicate to words after it
-            features["pred_forward_distance"] = int(token) - pred_token
-        else:
-            features["pred_backward_dist"] = None
-            features["pred_forward_distance"] = None
+                features["pred_forward_distance"] = None
 
-        if arg_known:
-            features, feature_lines, update_arg0_distance = distanceFromArgument("arg0", arg0_token, token, update_arg0_distance, idx, start_sentence_idx, features, feature_lines)
-            features, feature_lines, update_arg1_distance = distanceFromArgument("arg1", arg1_token, token, update_arg1_distance, idx, start_sentence_idx, features, feature_lines)
-            features, feature_lines, update_arg2_distance = distanceFromArgument("arg2", arg2_token, token, update_arg2_distance, idx, start_sentence_idx, features, feature_lines)
-            features, feature_lines, update_arg3_distance = distanceFromArgument("arg3", arg3_token, token, update_arg3_distance, idx, start_sentence_idx, features, feature_lines)
-            features, feature_lines, update_arg4_distance = distanceFromArgument("arg4", arg4_token, token, update_arg4_distance, idx, start_sentence_idx, features, feature_lines)
+            if args["arguments_known"]:
+                features, feature_lines, update_arg0_distance = distanceFromArgument("arg0", arg0_token, token, update_arg0_distance, idx, start_sentence_idx, features, feature_lines)
+                features, feature_lines, update_arg1_distance = distanceFromArgument("arg1", arg1_token, token, update_arg1_distance, idx, start_sentence_idx, features, feature_lines)
+                features, feature_lines, update_arg2_distance = distanceFromArgument("arg2", arg2_token, token, update_arg2_distance, idx, start_sentence_idx, features, feature_lines)
+                features, feature_lines, update_arg3_distance = distanceFromArgument("arg3", arg3_token, token, update_arg3_distance, idx, start_sentence_idx, features, feature_lines)
+                features, feature_lines, update_arg4_distance = distanceFromArgument("arg4", arg4_token, token, update_arg4_distance, idx, start_sentence_idx, features, feature_lines)
 
-        
 
         #Set label for training
-        if not(testfeatures) and role and role.strip() == "SUPPORT":
+        if not(args["test_features"]) and role and role.strip() == "SUPPORT":
             label = role
 
 
@@ -289,7 +290,7 @@ def getFeatures(filename, testfeatures, arg_known):
             features["prev_2_POS"] = None
             features["prev_2_BIO"] = None
 
-        if testfeatures:
+        if args["test_features"]:
             #Test features have no label
             feature_lines.append([word,features])
         else:
@@ -325,10 +326,11 @@ if __name__ == '__main__':
     parser.add_argument("--inputfile", help="Input File")
     parser.add_argument("--test_features", action="store_true", default = False, help="Whether to obtain test features, if not set to true, we get train features")
     parser.add_argument("--arguments_known", action="store_true", default = False, help="Whether the arguments are known to the system")
+    parser.add_argument("--distance_features", action="store_true", default = False, help="Whether to keep distance features (Model 1)")
     args = vars(parser.parse_args())
 
 
     #read in the file to form features
-    features = getFeatures(args["inputfile"], testfeatures=args["test_features"], arg_known=args["arguments_known"])
+    features = getFeatures(args["inputfile"],  args = args)
     #Print features as tab separated
     printFeatures(features)

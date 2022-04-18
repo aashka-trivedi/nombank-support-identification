@@ -9,6 +9,11 @@
 - `train-features`, `test-features`, `dev-features` are the feature files for the case where the model has information about only the predicates
 - `arg-train-features`, `arg-test-features`, `arg-dev-features` are the feature files for the case where the model has information about the predicates and all the arguments
 
+Notes:
+
+1. Please note- any data with the prefix "model0" refers to one only word-related features, the prefix "model1" has word-related and distance related features, and the prefix "model2" means it has word-related, distance-related, and transparent-noun related features
+2. Any data with the suffix "arg" has knowledge of all the arguments along with the predicate, and if the suffix is missing, it has only the knowledge of the predicates only
+
 ## Code
 
 - `get_features.py`is used to get features from the data files. Use flag `--test_features` to produce test features (without training labels), and the flag `--arguments_known` if the training should be done with complete information of predicates and all arguments.
@@ -26,3 +31,14 @@ The following features are obtained:
 5. If all the arguments is known then we also include argument related features: Argument related features (argx can be arg0,arg1,arg2,arg3,arg4): is_argx, argx_forward_distance (forward distance from argx), argx_backward_distance (backward distance from argx)
 
 Labels: for training data, the labels are "SUPPORT" or None
+
+### Models
+
+We train a total of 6 models: with 3 feature sets and 2 information levels.
+
+1. Model 0: The baseline model, containing only word related features, and no distance related features. The model only has knowledge of the predicate
+2. Model 0 arg: Model trained with only word-related features, which has knowledge of the predicate and all arguments
+3. Model 1: Trained with word-related features, and distance related features. The model only has knowledge of the predicate
+4. Model 1 arg: Model trained with word-related and distance-related features, which has knowledge of the predicate and all arguments
+3. Model 1: Trained with word-related features, distance related features, and transparent-noun related features. The model only has knowledge of the predicate
+4. Model 1 arg: Model trained with word-related and distance-related features, and transparent-noun related features which has knowledge of the predicate and all arguments

@@ -40,5 +40,5 @@ We train a total of 6 models: with 3 feature sets and 2 information levels.
 2. Model 0 arg: Model trained with only word-related features, which has knowledge of the predicate and all arguments
 3. Model 1: Trained with word-related features, and distance related features. The model only has knowledge of the predicate
 4. Model 1 arg: Model trained with word-related and distance-related features, which has knowledge of the predicate and all arguments
-3. Model 1: Trained with word-related features, distance related features, and transparent-noun related features. The model only has knowledge of the predicate
-4. Model 1 arg: Model trained with word-related and distance-related features, and transparent-noun related features which has knowledge of the predicate and all arguments
+5. Model 2: Trained with word-related features, distance related features, and transparent-noun related features. The model only has knowledge of the predicate
+6. Model 2 arg: Model trained with word-related and distance-related features, and transparent-noun related features which has knowledge of the predicate and all arguments

@@ -16,13 +16,15 @@ Notes:
 
 ## Code
 
-- `get_features.py`is used to get features from the data files. Run as `python3 get_features --inputfile $INPUT_FILE [--distance_features][--test_features] [--arguments_known]`
+- `get_features.py`is used to get features from the data files. Run as `python3 get_features --inputfile $INPUT_FILE [--distance_features][--test_features] [--arguments_known] [--transparent_noun --transparent_noun_path $TRANSPARENT_NOUN_LIST]`
 
 Flags:
 
-1. `--distance_features`: to produce features with distance-related features (Model 1)
-2. `--test_features`: to produce test features (without training labels)
-3. `--arguments_known` if the training should be done with complete information of predicates and all arguments
+1. `--test_features`: to produce test features (without training labels)
+2. `--arguments_known` if the training should be done with complete information of predicates and all arguments
+3. `--distance_features`: to produce features with distance-related features (Model 1)
+4. `--transparent_noun`: to produce features with tranparent-noun-related features (Model 2)
+5. `--transparent_noun_path`: the list of transparent nouns (needed if --transparent_noun is used) (Model 2)
 
 ## Implementation Details
 
@@ -35,6 +37,7 @@ The following features are obtained:
 3. Next word (upto 2 word) Related Features: next_word, next_POS, next_BIO, next_2_word, next_2_POS, next_2_BIO
 4. Distance from predicated: pred_forward_distance (forward distance from predicate), pred_backward_distance (backward distance from predicate)
 5. If all the arguments is known then we also include argument related features: Argument related features (argx can be arg0,arg1,arg2,arg3,arg4): is_argx, argx_forward_distance (forward distance from argx), argx_backward_distance (backward distance from argx)
+6. Transparent noun related features: is_transparent_noun, 3_before_transparent (if word occurs within a window of three words before a transparent noun), 2_before_transparent, 1_before_transparent, 1_after_transparent, 2_after_transparent, 3_after_transparent (if word occurs within a window of three words after a transparent noun)
 
 Labels: for training data, the labels are "SUPPORT" or None
 

@@ -1,7 +1,19 @@
 import argparse
 from nltk.stem import PorterStemmer
 
+def getTransparentNouns(filepath):
+    '''
+    Gets a set of transparent nouns from the filepath
+    '''
+    text_file = open(filepath, "r")
+    lines = text_file.read().splitlines()
+    tran_noun = set(lines)
+    return tran_noun
+
 def distanceFromArgument(argument_number, arg_token, token, update_flag, idx, start_sentence_idx, features, feature_lines):
+    '''
+    Calculate the forward and backward distance of a word from a given argument
+    '''
     back_dist = argument_number + "_backward_dist"
     forward_dist = argument_number + "_forward_dist"
     if arg_token:
@@ -48,7 +60,13 @@ def getFeatures(filename, args):
     update_arg2_distance = False
     update_arg3_distance = False
     update_arg4_distance = False
+    transparent_noun_token = None
+    to_update_transparent_dist = False         
+    
 
+    if args["transparent_noun"]:
+        transparent_nouns = getTransparentNouns(args["transparent_noun_path"])
+            
 
     for (idx,line) in enumerate(lines):
         
@@ -65,11 +83,13 @@ def getFeatures(filename, args):
             update_arg2_distance = False
             update_arg3_distance = False
             update_arg4_distance = False
+            to_update_transparent_dist = False
             arg0_token = None                   
             arg1_token = None                       
             arg2_token = None                     
             arg3_token = None                       
-            arg4_token = None                      
+            arg4_token = None 
+            transparent_noun_token = None                     
             continue
 
         components = line.split('\t')
@@ -117,12 +137,27 @@ def getFeatures(filename, args):
             features["is_arg2"] = False
             features["is_arg3"] = False
             features["is_arg4"] = False
-
+        
         label = None
 
         if word_POS in ["NN","NNS","NNP"]:
             #word is a Noun type
             features["is_noun"] = True
+        
+        #check if the word is a transparent noun
+        if args["transparent_noun"]:
+            if word.lower() in transparent_nouns:
+                features["is_transparent_noun"] = True
+                transparent_noun_token = int(token)
+                to_update_transparent_dist = True
+            else:
+                features["is_transparent_noun"] = False
+            features["1_before_transparent"] = False
+            features["2_before_transparent"] = False
+            features["3_before_transparent"] = False
+            features["1_after_transparent"] = False
+            features["2_after_transparent"] = False
+            features["3_after_transparent"] = False
         
         #word is the predicate 
         if role and role=="PRED":
@@ -173,6 +208,38 @@ def getFeatures(filename, args):
                 features, feature_lines, update_arg3_distance = distanceFromArgument("arg3", arg3_token, token, update_arg3_distance, idx, start_sentence_idx, features, feature_lines)
                 features, feature_lines, update_arg4_distance = distanceFromArgument("arg4", arg4_token, token, update_arg4_distance, idx, start_sentence_idx, features, feature_lines)
 
+        if args["transparent_noun"]:
+            #If transparent noun token has been found
+            if transparent_noun_token:
+                if to_update_transparent_dist:
+                    for i in [idx-1,idx-2,idx-3]:
+                        if i>=start_sentence_idx:
+                            prev_features = feature_lines[i][1]
+                            t_back_dist = transparent_noun_token - int(prev_features["position"])
+                            if t_back_dist==1:
+                                feature_lines[i][1]["1_before_transparent"] = True
+                                feature_lines[i][1]["2_before_transparent"] = True
+                                feature_lines[i][1]["3_before_transparent"] = True
+                            if t_back_dist ==2:
+                                feature_lines[i][1]["2_before_transparent"] = True
+                                feature_lines[i][1]["3_before_transparent"] = True
+                            if t_back_dist ==3:
+                                feature_lines[i][1]["3_before_transparent"] = True
+
+                    to_update_transparent_dist = False
+                
+                t_forward_distance = int(token) - transparent_noun_token
+                if t_forward_distance ==1:
+                    features["1_after_transparent"] = True
+                    features["2_after_transparent"] = True
+                    features["3_after_transparent"] = True
+                if t_forward_distance ==2:
+                    features["2_after_transparent"] = True
+                    features["3_after_transparent"] = True
+                if t_forward_distance ==3:
+                    features["3_after_transparent"] = True
+                
+                
 
         #Set label for training
         if not(args["test_features"]) and role and role.strip() == "SUPPORT":
@@ -327,8 +394,14 @@ if __name__ == '__main__':
     parser.add_argument("--test_features", action="store_true", default = False, help="Whether to obtain test features, if not set to true, we get train features")
     parser.add_argument("--arguments_known", action="store_true", default = False, help="Whether the arguments are known to the system")
     parser.add_argument("--distance_features", action="store_true", default = False, help="Whether to keep distance features (Model 1)")
+    parser.add_argument("--transparent_noun", action="store_true", default = False, help="Whether to keep transparent-known related features (Model 2)")
+    parser.add_argument("--transparent_noun_path", help="List of transparent nouns")
     args = vars(parser.parse_args())
 
+    if args["transparent_noun"]:
+        if not args["transparent_noun_path"]:
+            print("Please provide a list of transparent nouns")
+            exit(0)
 
     #read in the file to form features
     features = getFeatures(args["inputfile"],  args = args)

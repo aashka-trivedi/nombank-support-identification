@@ -1,14 +1,14 @@
 import argparse
 from nltk.stem import PorterStemmer
 
-def getTransparentNouns(filepath):
+def getSetOfWords(filepath):
     '''
-    Gets a set of transparent nouns from the filepath
+    Gets a set of transparent nouns  or support verbs from the filepath
     '''
     text_file = open(filepath, "r")
     lines = text_file.read().splitlines()
-    tran_noun = set(lines)
-    return tran_noun
+    items= set(lines)
+    return items
 
 def distanceFromArgument(argument_number, arg_token, token, update_flag, idx, start_sentence_idx, features, feature_lines):
     '''
@@ -65,7 +65,10 @@ def getFeatures(filename, args):
     
 
     if args["transparent_noun"]:
-        transparent_nouns = getTransparentNouns(args["transparent_noun_path"])
+        transparent_nouns = getSetOfWords(args["transparent_noun_path"])
+    
+    if args["support_verb"]:
+        support_verbs = getSetOfWords(args["support_verb_path"])
             
 
     for (idx,line) in enumerate(lines):
@@ -146,18 +149,26 @@ def getFeatures(filename, args):
         
         #check if the word is a transparent noun
         if args["transparent_noun"]:
-            if word.lower() in transparent_nouns:
+            if word.lower() in transparent_nouns or ps.stem(word) in transparent_nouns:
                 features["is_transparent_noun"] = True
                 transparent_noun_token = int(token)
                 to_update_transparent_dist = True
             else:
                 features["is_transparent_noun"] = False
+
             features["1_before_transparent"] = False
             features["2_before_transparent"] = False
             features["3_before_transparent"] = False
             features["1_after_transparent"] = False
             features["2_after_transparent"] = False
             features["3_after_transparent"] = False
+        
+        #check if word is in list of support verbs
+        if args["support_verb"]:
+            if word.lower() in support_verbs or ps.stem(word) in support_verbs:
+                features["is_support_verb"] = True
+            else:
+                features["is_support_verb"] = False
         
         #word is the predicate 
         if role and role=="PRED":
@@ -238,6 +249,8 @@ def getFeatures(filename, args):
                     features["3_after_transparent"] = True
                 if t_forward_distance ==3:
                     features["3_after_transparent"] = True
+            
+        
                 
                 
 
@@ -394,8 +407,10 @@ if __name__ == '__main__':
     parser.add_argument("--test_features", action="store_true", default = False, help="Whether to obtain test features, if not set to true, we get train features")
     parser.add_argument("--arguments_known", action="store_true", default = False, help="Whether the arguments are known to the system")
     parser.add_argument("--distance_features", action="store_true", default = False, help="Whether to keep distance features (Model 1)")
-    parser.add_argument("--transparent_noun", action="store_true", default = False, help="Whether to keep transparent-known related features (Model 2)")
+    parser.add_argument("--transparent_noun", action="store_true", default = False, help="Whether to keep transparent-noun related features (Model 2)")
     parser.add_argument("--transparent_noun_path", help="List of transparent nouns")
+    parser.add_argument("--support_verb", action="store_true", default = False, help="Whether to keep support-verb related features (Model 3)")
+    parser.add_argument("--support_verb_path", help="List of support verbs")
     args = vars(parser.parse_args())
 
     if args["transparent_noun"]:

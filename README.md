@@ -16,7 +16,7 @@ Notes:
 
 ## Code
 
-- `get_features.py`is used to get features from the data files. Run as `python3 get_features --inputfile $INPUT_FILE [--distance_features][--test_features] [--arguments_known] [--transparent_noun --transparent_noun_path $TRANSPARENT_NOUN_LIST]`
+- `get_features.py`is used to get features from the data files. Run as `python3 get_features.py --inputfile $INPUT_FILE [--distance_features][--test_features] [--arguments_known] [--transparent_noun --transparent_noun_path $TRANSPARENT_NOUN_LIST] [--support_verb --support_verb_path $SUPPORT_VERB_LIST]`
 
 Flags:
 
@@ -25,6 +25,8 @@ Flags:
 3. `--distance_features`: to produce features with distance-related features (Model 1)
 4. `--transparent_noun`: to produce features with tranparent-noun-related features (Model 2)
 5. `--transparent_noun_path`: the list of transparent nouns (needed if --transparent_noun is used) (Model 2)
+6. `--support_verb`: to produce features with support-verb-related features (Model 3)
+7. `--support_verb_path`: the list of support verbs(needed if --support_verb is used) (Model 3)
 
 ## Implementation Details
 
@@ -51,3 +53,5 @@ We train a total of 6 models: with 3 feature sets and 2 information levels.
 4. Model 1 arg: Model trained with word-related and distance-related features, which has knowledge of the predicate and all arguments
 5. Model 2: Trained with word-related features, distance related features, and transparent-noun related features. The model only has knowledge of the predicate
 6. Model 2 arg: Model trained with word-related and distance-related features, and transparent-noun related features which has knowledge of the predicate and all arguments
+7. Model 3: Trained with word-related features, distance related features, transparent-noun related features, and support verb related features. The model only has knowledge of the predicate
+8. Model 3 arg: Model trained with word-related and distance-related features, transparent-noun related features and support verb related features which has knowledge of the predicate and all arguments

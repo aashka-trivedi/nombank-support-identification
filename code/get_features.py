@@ -360,6 +360,9 @@ def getFeatures(filename, args):
                 features["prev_2_POS"] = None
                 features["prev_2_BIO"] = None
             
+            if args["prev_tag"]:
+                features["prev_tag"] = "@@"
+            
         else:
             sent_beginning = False
             #Every word should have the same set of features
@@ -369,6 +372,11 @@ def getFeatures(filename, args):
             features["prev_2_word"] = None
             features["prev_2_POS"] = None
             features["prev_2_BIO"] = None
+
+            if args["prev_tag"]:
+                features["prev_tag"] = None
+        
+
 
         if args["test_features"]:
             #Test features have no label
@@ -411,6 +419,7 @@ if __name__ == '__main__':
     parser.add_argument("--transparent_noun_path", help="List of transparent nouns")
     parser.add_argument("--support_verb", action="store_true", default = False, help="Whether to keep support-verb related features (Model 3)")
     parser.add_argument("--support_verb_path", help="List of support verbs")
+    parser.add_argument("--prev_tag", action="store_true", default = False, help="Whether to keep the previous word tag as a feature (Model 4)")
     args = vars(parser.parse_args())
 
     if args["transparent_noun"]:

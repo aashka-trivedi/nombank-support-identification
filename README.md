@@ -11,7 +11,7 @@
 
 Notes:
 
-1. Please note- any data with the prefix "model0" refers to one only word-related features, the prefix "model1" has word-related and distance related features, and the prefix "model2" means it has word-related, distance-related, and transparent-noun related features
+1. Please note- any data with the prefix "modelN" contains the features as described by the models below
 2. Any data with the suffix "arg" has knowledge of all the arguments along with the predicate, and if the suffix is missing, it has only the knowledge of the predicates only
 
 ## Code
